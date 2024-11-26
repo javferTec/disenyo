@@ -1,0 +1,966 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Diseño de Interfaces Web]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Diseño de Interfaces Web</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 28 Nov 2024 16:35:43 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 28 Nov 2024 16:35:40 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Índice]]></title><description><![CDATA[ 
+ <br><br>
+<br><a class="internal-link" data-href="El diseño web.md" href="1-el-diseño-web\el-diseño-web.html" target="_self" rel="noopener nofollow">El diseño web</a>
+<br><a class="internal-link" data-href="Introduccion al CSS.md" href="2-introduccion-al-css\introduccion-al-css.html" target="_self" rel="noopener nofollow">Introducción al CSS</a>
+<br><a class="internal-link" data-href="CSS.md" href="3-css\css.html" target="_self" rel="noopener nofollow">CSS</a>
+<br><a class="internal-link" data-href="SASS.md" href="4-sass\sass.html" target="_self" rel="noopener nofollow">SASS</a>
+<br><a class="internal-link" data-href="Arquitectura.md" href="excalidraw\arquitectura.html" target="_self" rel="noopener nofollow">Arquitectura</a>
+<br><a class="internal-link" data-href="Webs Interesantes.md" href="6-web-utilities\webs-interesantes.html" target="_self" rel="noopener nofollow">Web Utilities</a>
+<br>CheatSheets
+
+<br><a class="internal-link" data-href="css3-cheatsheet-lite.pdf" href="7-cheatsheets\css3-cheatsheet-lite.pdf" target="_self" rel="noopener nofollow">css3-cheatsheet-lite.pdf</a>
+<br><a class="internal-link" data-href="html5-cheatsheet-lite.pdf" href="7-cheatsheets\html5-cheatsheet-lite.pdf" target="_self" rel="noopener nofollow">html5-cheatsheet-lite.pdf</a>
+<br><a class="internal-link" data-href="Sass(SCSS) and Compass Cheat Sheet.pdf" href="7-cheatsheets\sass(scss)-and-compass-cheat-sheet.pdf" target="_self" rel="noopener nofollow">Sass(SCSS) and Compass Cheat Sheet.pdf</a>
+
+
+]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Thu, 28 Nov 2024 16:35:18 GMT</pubDate></item><item><title><![CDATA[EL DISEÑO WEB]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>Framework CSS: Es una colección de herramientas y estilos predefinidos que facilitan el diseño y la maquetación web, ofreciendo clases, componentes y utilidades listas para usar (por ejemplo, Bootstrap, Tailwind CSS).
+<br>Preprocesadores CSS: Herramientas que extienden CSS con características como variables, anidación y mixins. Generan CSS estándar a partir de un código más organizado (por ejemplo, Sass, LESS).
+<br>Postprocesadores CSS: Herramientas que optimizan o transforman el CSS ya escrito, agregando compatibilidad con navegadores o mejoras automáticas (por ejemplo, PostCSS).
+<br><br>
+<br>Las cosas que no estén relacionadas, con bastante separación.
+<br>Los diseño no tienen que ocupar el 100% de la pantalla ya que en pantallas muy grandes queda mal.
+<br>Haz que las cosas estén alineadas a una recta imaginaria que va de arriba a abajo.
+<br>Resalta lo importante
+<br>Repele la atención de lo que no es importante (más pequeño, más espacioso, de menor contraste).
+<br>Evita usar label o captions. Si ves ventas@persianas.com ya sabes que es un correo, no hace falta indicar que es el correo. Pero si usas un label que forme parte de una frase. "3 en stock" en vez de "Stock:3". Y aun así, si las usas, que estén desenfatizadas
+<br>Los títulos &lt;h1&gt; no tienen porque destacar ya que a veces no son importantes ya que es obvio el título. &lt;h1&gt; es para que el buscador sepa que eso es importante (SEO).
+<br>Las esquinas cuadradas indican seriedad. Las Esquinas muy muy redondeadas son muy informales.(border-radious)
+<br>Para enfatizar en vez de un mayor tamaño de letra, usa negrita. Pero para desenfatizar, usa un color de letra gris en vez del negro del texto.
+<br>Nunca usar un carrusel.
+<br><br>Los colores de pueden definir en CSS con formato RGB o HSL.<br>
+Una web necesita muchos colores, un ejemplo de una paleta de colores sería la siguiente:<br><img alt="colors.png" src="lib\media\colors.png"><br><br>En diseño, los conceptos de color principal y color alternativo son fundamentales para crear una identidad visual coherente:<br>
+<br>
+Color principal: Es el color predominante que representa la marca o diseño. Se usa para destacar elementos clave como el logo, encabezados o botones principales. Ejemplo: el azul en Facebook.
+
+<br>
+Color alternativo: Es un color complementario o secundario que acompaña al principal. Se utiliza para contrastar, equilibrar o diferenciar secciones menos destacadas, como botones secundarios o fondos. Ejemplo: el verde en WhatsApp frente a su azul secundario.
+
+<br>Note
+La gama de blancos y grises la usas para hacer las cosas muy claras u oscuras. La gama del color principal obviamente la usas para casi todo, mientras que la gama del color alternativo la usas para destacar algo. Por último, los colores rojo, verde, amarillo, etc, son para cosas concretas que necesitan ese color. Por ejemplo para avisar del borrado de algo usar el rojo.
+<br><br>Las cosas que están "encima" debe ser más claras que las que están abajo.<br><img alt="luzCielo.png" src="lib\media\luzcielo.png"><br><br>Al hacer un interfaz de usuario, hay que jugar con dos colores que hagan contraste. Como por ejemplo:<br>Rueda de colores de contraste:<br><img alt="ruedaContraste.png" src="lib\media\ruedacontraste.png"><br><br>Los botones tienen 2 características:<br>
+<br>Importancia: Es si queremos o no que el usuario pulse ahí. A mayor importancia es que queremos que mas veces pulse en ese botón.
+<br>Función: Es para decir al usuario que tipo de acción está realizando. Por ejemplo , la función "Peligrosa" es roja y nos quiere decir que tengamos cuidado al pulsar ahí.
+<br><br><br>Al igual que en los colores nos ceñimos a un conjunto limitado de colores, se debe hacer lo mismo con los tamaños de margenes, fuentes, etc.<br><br>0px, 4px, 6x, 8px, 10px, 12px, 16px, 20px, 24px, 32px, 40px, 48px, 64px, 80px, 96px, 128px, 160px, 192px, 224px, 256px, 320px, 480px, 640px
+<br><br>12px, 14px, 16px, 18px, 20px, 24px, 30px, 36px, 48px, 64px
+<br><br>0px, 2px, 4px, 6px, 8px, 16px
+<br>Note
+Obviamente se puede elegir los tamaños que se deseen pero se tiene que tener en cuenta que a mayor tamaño , mas debe ser el incremento entre uno y otro.
+<br><br>La experiencia de usuario es conseguir que el usuario se sienta cómodo usando la aplicación (UX).]]></description><link>1-el-diseño-web\el-diseño-web.html</link><guid isPermaLink="false">1- El diseño web/El diseño web.md</guid><pubDate>Wed, 27 Nov 2024 18:30:35 GMT</pubDate><enclosure url="lib\media\colors.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\colors.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[INTRODUCCIÓN AL CSS]]></title><description><![CDATA[ 
+ <br><br><br><br>El layout de GRID es un tipo de layout que se usa en navegadores modernos para colocar las etiquetas HTML. Dispone de muchas opciones pero ahora solo vamos a ver lo mas básico.<br>
+<br>
+display: grid; Define al contenedor como un contenedor de grid, permitiendo que sus hijos se posicionen dentro de una cuadrícula.
+
+<br>
+grid-teplate-areas Especifica un diseño basado en áreas con nombre. Cada área se representa con un identificador textual en un formato similar al de una cuadrícula. Las filas están separadas por saltos de línea, y las columnas se delimitan por los espacios entre las palabras.
+En este caso:
+
+<br> grid-template-areas:
+ "cabecera cabecera cabecera cabecera cabecera"
+ "lateral-izquierdo cuerpo cuerpo cuerpo lateral-derecho"
+ "pie pie pie pie pie";
+<br>
+<br>
+grid-area Asigna un elemento hijo del grid a una de las áreas nombradas en grid-template-areas.
+ Por ejemplo: 
+
+<br> .cabecera {
+     grid-area: cabecera;
+ }
+<br>   Esto indica que el elemento con la clase .cabecera ocupará el área llamada cabecera.<br>Estructura general del diseño:<br>
+<br>Cabecera ocupa toda la parte superior de la página.
+<br>Lateral-izquierdo está en la parte izquierda de la segunda fila.
+<br>Cuerpo ocupa la parte central de la segunda fila.
+<br>Lateral-derecho está en la parte derecha de la segunda fila.
+<br>Pie ocupa toda la parte inferior.
+<br>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;TODO supply a title&lt;/title&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;style&gt;
+            .contenedor {
+                display: grid;
+                grid-template-areas:
+                  "cabecera cabecera cabecera cabecera cabecera"
+                  "lateral-izquierdo cuerpo cuerpo cuerpo lateral-derecho"
+                  "pie pie pie pie pie";
+            }
+ 
+            .cabecera {
+                grid-area: cabecera;
+            }
+ 
+            .cuerpo {
+                grid-area: cuerpo;
+            }
+ 
+            .lateral-izquierdo {
+                grid-area: lateral-izquierdo;
+            }
+ 
+            .lateral-derecho {
+                grid-area: lateral-derecho;
+            }
+ 
+            .pie {
+                grid-area: pie;
+            }
+ 
+ 
+        &lt;/style&gt;        
+    &lt;/head&gt;
+ 
+    &lt;body&gt;
+        &lt;div class="contenedor"&gt;
+            &lt;div class="cabecera"&gt;CABECERA&lt;/div&gt;
+            &lt;div class="lateral-izquierdo"&gt;IZQUIERDA&lt;/div&gt;
+            &lt;div class="cuerpo"&gt;CUERPO&lt;/div&gt;
+            &lt;div class="lateral-derecho"&gt;DERECHA&lt;/div&gt;
+            &lt;div class="pie"&gt;PIE&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+<br><br>Esto con FLEXBOX sería de la siguiente manera:<br>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;TODO supply a title&lt;/title&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;style&gt;
+            .contenedor {
+                display: flex;
+                flex-direction: column; /* Organiza las secciones en filas */
+                height: 100vh; /* Altura completa de la ventana */
+            }
+
+            .fila {
+                display: flex; /* Contenedor para organizar elementos en fila */
+                flex: 1; /* Divide las filas proporcionalmente */
+            }
+
+            .cabecera {
+                flex: 0.2; /* Ocupa menos espacio vertical */
+                background-color: lightblue;
+                text-align: center;
+            }
+
+            .lateral-izquierdo,
+            .lateral-derecho {
+                flex: 1; /* Ocupan espacio igual dentro de la fila */
+                background-color: lightgray;
+                text-align: center;
+            }
+
+            .cuerpo {
+                flex: 3; /* Ocupa más espacio en la fila */
+                background-color: lightgreen;
+                text-align: center;
+            }
+
+            .pie {
+                flex: 0.2; /* Ocupa menos espacio vertical */
+                background-color: lightcoral;
+                text-align: center;
+            }
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="contenedor"&gt;
+            &lt;!-- Cabecera --&gt;
+            &lt;div class="cabecera"&gt;CABECERA&lt;/div&gt;
+
+            &lt;!-- Fila intermedia --&gt;
+            &lt;div class="fila"&gt;
+                &lt;div class="lateral-izquierdo"&gt;IZQUIERDA&lt;/div&gt;
+                &lt;div class="cuerpo"&gt;CUERPO&lt;/div&gt;
+                &lt;div class="lateral-derecho"&gt;DERECHA&lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Pie --&gt;
+            &lt;div class="pie"&gt;PIE&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+<br><br>CABECERA (ancho completo)
++-----------------------------------------------+
+
+IZQUIERDA   |        CUERPO        | DERECHA
+(estrecha)   (ancha)                (estrecha)
+
+PIE (ancho completo)
++-----------------------------------------------+
+<br><br>Cada navegador tiene propiedades cuyos valores por defecto son distintos unos de otros.E s necesario tener un CSS que ponga los valores de esas propiedades siempre iguales para que no haya tanta diferencia entre navegadores.<br>Incluir en todos los proyectos los siguientes CSS:<br>
+<br><a rel="noopener nofollow" class="external-link" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" target="_blank">https://necolas.github.io/normalize.css/8.0.1/normalize.css</a>
+<br><a rel="noopener nofollow" class="external-link" href="https://meyerweb.com/eric/tools/css/reset/" target="_blank">https://meyerweb.com/eric/tools/css/reset/</a>
+]]></description><link>2-introduccion-al-css\introduccion-al-css.html</link><guid isPermaLink="false">2- Introduccion al CSS/Introduccion al CSS.md</guid><pubDate>Wed, 27 Nov 2024 19:16:11 GMT</pubDate></item><item><title><![CDATA[CSS]]></title><description><![CDATA[ 
+ <br><br><br>
+<br>Con un fichero externo y añadiendo en el &lt;head&gt;:
+<br>&lt;link rel="stylesheet" href="main.css"&gt;
+<br>
+<br>Añadiendo la etiqueta &lt;style&gt;
+<br>&lt;style&gt;
+body {
+  background-color: #FF00FF;
+}
+ 
+h1 {
+  color: #FE56A2;
+  margin-left: 40px;
+}
+&lt;/style&gt;
+<br>
+<br>CSS dentro del propio elemento con el atributo style.
+<br>&lt;h1 style="color:blue;text-align:center;"&gt;This is a heading&lt;/h1&gt;
+<br>Note
+Solo se debería añadir el CSS en ficheros externo y en algún caso concreto con "style" como por ejemplo la imagen de background.
+<br><br><br>Se deben usar prácticamente siempre únicamente selectores de clase. Cuando mas complejo sea el selector tendrá una Especificidad mas alta y queremos que sea baja. Por ello solo de debe usar el selector de clase que empieza por un .<br><br><br>El modelo de java le dice al navegador si cuando indicamos el ancho, ese ancho incluye o no al padding y al borde. Por defecto no los incluye pero lo ideal es que el ancho si que incluya el padding y el borde, por eso hay que usar la propiedad box-sizing: border-box de CSS.<br>Como indicar correctamente el box-sizing:<br>html {
+  box-sizing: border-box;
+}
+ 
+*, *:before, *:after {
+  box-sizing: inherit;
+  }
+<br>Ejemplo:<br>.caja {
+      width: 300px;
+      height: 150px;
+      padding: 20px;
+      border: 10px solid #000;
+      background-color: lightblue;
+}
+<br><br><br>En la propiedad "display" de CSS hay muchos posibles valores , ahora vamos a ver los 5 siguientes:<br>
+<br>inline: Para un elemento que forma parte de un párrafo.
+<br>inline-block: Como inline pero permite especificar el ancho y el alto.
+<br>block: Después del elemento se genera un salto de línea y también permite especificar el ancho y el alto.
+<br>display: none es como si el elemento no existiera por lo que el resto de elementos se desplazan para ocupar su hueco
+<br>visibility: hidden el elemento es invisible pero sigue ocupando su hueco.
+<br>Ejemplo:<br>&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Ejemplo Display&lt;/title&gt;
+  &lt;style&gt;
+    .inline { display: inline; }
+    .inline-block { display: inline-block; width: 100px; height: 50px; background-color: lightcoral; }
+    .block { display: block; width: 100px; height: 50px; background-color: lightgreen; }
+    .none { display: none; }
+    .hidden { visibility: hidden; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class="inline"&gt;Elemento inline&lt;/div&gt;
+  &lt;div class="inline-block"&gt;Elemento inline-block&lt;/div&gt;
+  &lt;div class="block"&gt;Elemento block&lt;/div&gt;
+  &lt;div class="none"&gt;Elemento no visible (display: none)&lt;/div&gt;
+  &lt;div class="hidden"&gt;Elemento invisible (visibility: hidden)&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+<br><br><br>Hace que un espacio con "&nbsp;" sea como una letra mas por lo que no partirá la frase por ese espacio.<br>Ejemplo:<br>&lt;p&gt;Este es un ejemplo&amp;nbsp;de uso de&amp;nbsp;espacios no separables.&lt;/p&gt;
+<br><br><br>Las sombras se usan para dar sensación de profundidad sin necesidad de bordes. Suponemos que la luz viene de arriba.<br>Se usa la propiedad box-shadow.<br><img alt="sombras.png" src="lib\media\sombras.png"><br>Ejemplo:<br>&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Ejemplo Sombras&lt;/title&gt;
+  &lt;style&gt;
+    .sombra {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class="sombra"&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+<br><br><br>Etiquetas HTML para:<br>Barra de progreso: Etiqueta &lt;progress&gt;<br>
+Barra de medida: Etiqueta &lt;meter&gt;<br>Ejemplo:<br>&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Ejemplo Meter y Progress&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h3&gt;Progreso de descarga:&lt;/h3&gt;
+  &lt;progress value="70" max="100"&gt;&lt;/progress&gt;
+
+  &lt;h3&gt;Medición de temperatura:&lt;/h3&gt;
+  &lt;meter value="30" min="0" max="100" low="20" high="80" optimum="60"&gt;&lt;/meter&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+<br><br><br>Flexbox, abreviatura de Flexible Box Layout, es una técnica en CSS diseñada para distribuir espacio y alinear elementos en un contenedor, incluso cuando su tamaño es dinámico. Es útil tanto para diseño horizontal como vertical y es ideal para ajustar componentes en interfaces.<br><br>
+<br>
+Contenedor Flexible:
+
+<br>Un elemento padre con display: flex;.
+<br>Los hijos dentro de este contenedor son los "items flexibles" o flex items.
+<br>Controla cómo se distribuyen y alinean los items.
+
+
+<br>
+Ítems Flexibles:
+
+<br>Los elementos hijos directos del contenedor flexible.
+<br>Se comportan según las reglas de flexbox: crecen, se encogen o mantienen un tamaño fijo según el espacio disponible.
+
+
+<br><br><br>Controla la dirección de los items:<br>
+<br>row: Horizontal (por defecto). <img src="https://logongas.es/lib/exe/fetch.php?media=clase:daw:diw:1eval:flex-row.png" referrerpolicy="no-referrer">
+<br>row-reverse: Igual que row, pero invierte el orden.
+<br>column: Vertical.<br>
+<img src="https://logongas.es/lib/exe/fetch.php?media=clase:daw:diw:1eval:flex-colum.png" referrerpolicy="no-referrer">
+<br>column-reverse: Igual que column, pero invierte el orden.
+<br><br>Distribuye los items a lo largo del eje principal:<br>
+<br>flex-start: Al principio.
+<br>flex-end: Al final.
+<br>center: Centrados.
+<br>space-between: Espaciados equitativamente, con el primer y último item pegados a los bordes.
+<br>space-around: Espaciados equitativamente con márgenes a los extremos.
+<br>space-evenly: Espaciados uniformemente.
+<br><img src="https://logongas.es/lib/exe/fetch.php?media=clase:daw:diw:1eval:flex-justify-content.png" referrerpolicy="no-referrer"><br><br>Alinea los items en el eje perpendicular al principal (por ejemplo, vertical si flex-direction: row):<br>
+<br>flex-start: Arriba.
+<br>flex-end: Abajo.
+<br>center: Centrado.
+<br>stretch: Los items llenan el eje.
+<br>baseline: Alineados con la línea base del texto.
+<br><img src="https://logongas.es/lib/exe/fetch.php?media=clase:daw:diw:1eval:flex-align-items.png" referrerpolicy="no-referrer"><br><br>Controla si los items se ajustan a varias líneas si no caben en una sola:<br>
+<br>nowrap: (Por defecto) Todo en una línea.
+<br>wrap: Los items se ajustan a nuevas líneas.<br>
+<img src="https://logongas.es/lib/exe/fetch.php?media=clase:daw:diw:1eval:flex-wrap.png" referrerpolicy="no-referrer">
+<br>wrap-reverse: Igual que wrap, pero invierte el orden de las líneas.
+<br><br>Distribuye las líneas cuando hay varias filas o columnas (solo tiene efecto con flex-wrap: wrap):<br>
+<br>Valores similares a justify-content, pero para líneas: flex-start, flex-end, center, space-between, space-around, stretch.
+<br><img src="https://logongas.es/lib/exe/fetch.php?media=clase:daw:diw:1eval:flex-align-content.png" referrerpolicy="no-referrer"><br><br><br>Permite que un item crezca proporcionalmente para ocupar espacio sobrante.<br>
+<br>0 (por defecto): El item no crece.
+<br>Un número mayor (e.g., 1, 2): Determina cuánto crecerá un item en relación con otros. Por ejemplo, un item con flex-grow: 2 crecerá el doble que uno con flex-grow: 1.<br>
+<img src="https://logongas.es/lib/exe/fetch.php?media=clase:daw:diw:1eval:flex-grow.png" referrerpolicy="no-referrer">
+<br><br>Controla cuánto puede reducirse un item si el contenedor es más pequeño que el total de items.<br>
+<br>1 (por defecto): Se encoge en proporción.
+<br>0: No se encoge.
+<br><br>Determina el tamaño inicial del item antes de aplicar flex-grow o flex-shrink. Puede ser un valor fijo (px, %) o auto (el tamaño de su contenido).<br><br>Shorthand para definir las tres propiedades anteriores en una línea: flex-grow, flex-shrink y flex-basis.<br>
+<br>Ejemplo: flex: 1 0 auto;.
+<br><br>Ajusta la alineación de un item individual, sobrescribiendo align-items del contenedor.<br>
+<br>Valores: flex-start, flex-end, center, stretch, baseline.
+<br><br><br><br>&lt;div style="display: flex;"&gt;
+    &lt;div style="flex-grow: 1; border: 1px solid red;"&gt;Item 1&lt;/div&gt;
+    &lt;div style="flex-grow: 2; border: 1px solid red;"&gt;Item 2&lt;/div&gt;
+    &lt;div style="flex-grow: 1; border: 1px solid red;"&gt;Item 3&lt;/div&gt;
+&lt;/div&gt;
+<br>
+<br>Resultado: Item 2 ocupará el doble de espacio que Item 1 y Item 3.
+<br><br><br>&lt;div style="display: flex; flex-wrap: wrap; height: 200px;"&gt;
+    &lt;div style="flex: 1 1 100px; border: 1px solid blue;"&gt;A&lt;/div&gt;
+    &lt;div style="flex: 1 1 100px; border: 1px solid blue;"&gt;B&lt;/div&gt;
+    &lt;div style="flex: 1 1 100px; border: 1px solid blue;"&gt;C&lt;/div&gt;
+    &lt;div style="flex: 1 1 100px; border: 1px solid blue;"&gt;D&lt;/div&gt;
+&lt;/div&gt;
+<br>
+<br>Resultado: Los items A, B, C y D se ajustarán a nuevas filas si no caben.
+<br><br>&lt;div style="display: flex;"&gt;
+    &lt;div&gt;Item 1&lt;/div&gt;
+    &lt;div&gt;Item 2&lt;/div&gt;
+    &lt;div style="margin-left: auto;"&gt;Item 3&lt;/div&gt;
+&lt;/div&gt;
+<br>
+<br>Resultado: Item 3 estará alineado a la derecha, mientras que Item 1 y Item 2 quedarán a la izquierda.
+<br><br>&lt;div class="l-flex l-flex--direction-row l-flex--justify-content-center"&gt;
+  &lt;div clas="l-flex__area"&gt;Item1&lt;/div&gt;
+  &lt;div clas="l-flex__area"&gt;Item2&lt;/div&gt; 
+  &lt;div clas="l-flex__area l-flex__area--grow-2 "&gt;Item3&lt;/div&gt;
+  &lt;div clas="l-flex__area"&gt;Item4&lt;/div&gt; 
+  &lt;div clas="l-flex__area"&gt;Item5&lt;/div&gt; 
+&lt;/div&gt;
+<br>.l-flex {
+  display:flex;
+}
+ 
+ 
+.l-flex--direction-row {
+  flex-direction:row
+}
+ 
+.l-flex--justify-content-center {
+  justify-content:center
+}
+ 
+.l-flex__area--grow-2 {
+  flex-grow:2
+}
+<br><br><br>El sistema CSS Grid permite organizar contenido en dos dimensiones: filas y columnas. A diferencia de Flexbox, diseñado para layouts en una sola dimensión (horizontal o vertical), Grid facilita la creación de diseños más complejos mediante rejillas.<br><br><br>.container {
+    display: grid;
+}
+<br>Esto transforma al elemento en un contenedor Grid, permitiendo configurar filas, columnas y la distribución de sus elementos.<br><br><br>Define el tamaño de las columnas.<br>
+<br>Unidades de medida:
+
+<br>px: Tamaño fijo.
+<br>auto: Se ajusta al contenido.
+<br>fr: Una fracción del espacio restante.
+
+
+<br>Ejemplos:<br>.container {
+    grid-template-columns: 1fr 2fr 3fr; /* 3 columnas, proporciones 1:2:3 */
+    grid-template-columns: 100px auto 50px; /* Columna fija, ajustada y fija */
+}
+<br><br>Funciona igual, pero aplica a filas.<br><br>.container {
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+    grid-template-columns: repeat(auto-fit, 100px); /* Columnas dinámicas de 100px */
+}
+<br>
+<br>auto-fit: Crea tantas columnas como quepan en el espacio disponible.
+<br>minmax: Define un rango para el tamaño de las celdas.
+<br>.container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Mínimo 100px, máximo flexible */
+}
+<br><br><br>Espaciado entre celdas (horizontal y vertical).<br>.container {
+    gap: 15px; /* 15px entre filas y columnas */
+    gap: 15px 10px; /* 15px entre filas, 10px entre columnas */
+}
+<br><img src="https://logongas.es/lib/exe/fetch.php?media=clase:daw:diw:1eval:grid-gap.png" referrerpolicy="no-referrer"><br><br>Permiten que un elemento ocupe varias columnas o filas.<br>.item {
+    grid-column: span 2; /* Ocupa 2 columnas */
+    grid-row: span 3;    /* Ocupa 3 filas */
+}
+<br><br>&lt;div class="container"&gt;
+    &lt;div class="item"&gt;1&lt;/div&gt;
+    &lt;div class="item"&gt;2&lt;/div&gt;
+    &lt;div class="item"&gt;3&lt;/div&gt;
+    &lt;div class="item"&gt;4&lt;/div&gt;
+    &lt;div class="item"&gt;5&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+}
+.item {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+&lt;/style&gt;
+<br>Explicación:<br>
+<br>3 columnas con proporciones 1:2:1.
+<br>Separación de 10px entre celdas.
+<br>Cada elemento ocupa una celda por defecto.
+<br><br>&lt;div class="container"&gt;
+    &lt;div class="item"&gt;1&lt;/div&gt;
+    &lt;div class="item"&gt;2&lt;/div&gt;
+    &lt;div class="item"&gt;3&lt;/div&gt;
+    &lt;div class="item item-span"&gt;4 (Span)&lt;/div&gt;
+    &lt;div class="item"&gt;5&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.item {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+.item-span {
+    grid-column: span 2;
+}
+&lt;/style&gt;
+<br>Resultado: El elemento 4 ocupa dos columnas.<br><br><br>.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+}
+<br>Comportamiento:<br>
+<br>Cada celda tendrá un mínimo de 100px.
+<br>Si hay espacio adicional, las celdas se expanden.
+<br>Las filas se ajustan automáticamente para acomodar más elementos.
+<br><br><br><br>Conclusión:<br>
+<br>Usa Grid para layouts en dos dimensiones (tablas, rejillas).
+<br>Usa Flexbox para alineación simple o distribuciones en una dimensión (menús, botones).
+<br><br>]]></description><link>3-css\css.html</link><guid isPermaLink="false">3- CSS/CSS.md</guid><pubDate>Thu, 28 Nov 2024 16:22:56 GMT</pubDate><enclosure url="lib\media\sombras.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\sombras.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[SASS]]></title><description><![CDATA[ 
+ <br><br>SASS es un preprocesador de CSS. Es como añadir funcionalidad a CSS que no tiene pero no de cosas del navegador sino para ayudar a escribir menos CSS. El código se escribe en SASS y se transforma en CSS. Permite bucles, funciones, variables ,etc.<br>
+<br>Transformar de SASS a CSS:
+<br>sass  ./main.scss ./main.css
+<br>
+<br>Transformas de SASS a CSS siempre que cambie el CSS
+<br>sass  --watch ./main.scss ./main.css
+<br><br>Las variables en SASS empiezan por el símbolo $.<br>$font-main: Helvetica, sans-serif;
+$primary-color: #E4A23F;
+ 
+ 
+body {
+  font-family: $font-main;
+  color: $primary-color;
+}
+<br>Se transforma en:<br>body {
+  font-family: Helvetica, sans-serif;
+  color: #E4A23F;
+}
+<br><br><br>En CSS, las variables permiten almacenar valores reutilizables, lo que facilita la personalización y el mantenimiento del código. A diferencia de las variables de SASS, las variables CSS tienen ventajas como:<br>
+<br>Se pueden cambiar en tiempo de ejecución mediante JavaScript.
+<br>Pueden existir a nivel local dentro de los selectores.
+<br><br>
+<br>Definición: Las variables deben empezar con --. Se definen dentro del :root o un selector específico.
+:root {
+    --color-alternativo-5: #0056b8;
+}
+
+
+<br>
+2. **Uso**: Se utilizan dentro de las reglas CSS con `var(--nombre-variable)`.
+
+    ```css
+    .c-button {
+        background-color: var(--color-alternativo-5);
+    }
+    ```
+
+3. **Valor por defecto**: Se puede definir un valor por defecto en caso de que la variable no esté definida.
+
+    ```css
+    .c-button {
+        background-color: var(--color-alternativo-5, #FF0000);
+    }
+    ```
+
+4. **Cascada de valores por defecto**: Si la primera variable no existe, se puede usar otra, y si esa tampoco, un valor final.
+
+    ```css
+    .c-button {
+        background-color: var(--color-alternativo-5, var(--color-alternativo,                #FF0000));
+    }
+    ```
+
+### 2. Manipulación desde JavaScript
+
+1. **Modificar**:
+
+    ```javascript
+    let root = document.documentElement;
+    root.style.setProperty('--color-normal-5', "#FF0000");
+    ```
+
+2. **Leer**:
+
+    ```javascript
+    let root = document.documentElement;
+    let colorNormal = getComputedStyle(root).getPropertyValue("--color-normal-5");
+    ```
+
+### 3. Creación de múltiples variables
+
+Se pueden definir múltiples variables utilizando un objeto o una lista. Por ejemplo, se pueden crear variables de padding de forma dinámica en CSS:
+
+```scss
+$paddings: (
+  "xs": "1px",
+  "s": "2px",
+  "m": "6px",
+  "l": "12px",
+  "xl": "20px"
+);
+
+:root {
+  @each $key, $value in $paddings {
+    --padding-#{$key}: $value;
+  }
+}
+<br>Esto generará el siguiente código CSS:<br>:root {
+  --padding-xs: 1px;
+  --padding-s: 2px;
+  --padding-m: 6px;
+  --padding-l: 12px;
+  --padding-xl: 20px;
+}
+<br><br>Las variables creadas se pueden usar en los componentes, layouts o a nivel global:<br>.c-button {
+    --c-button-padding-vertical: var(--padding-s, 6px);
+    --c-button-padding-horizontal: var(--padding-m, 8px);
+
+    padding-top: var(--c-button-padding-vertical);
+    padding-bottom: var(--c-button-padding-vertical);
+
+    padding-left: var(--c-button-padding-horizontal);
+    padding-right: var(--c-button-padding-horizontal);
+}
+
+.g--padding-vertical-m {
+  padding-top: var(--padding-m);
+  padding-bottom: var(--padding-m);
+}
+<br><br><br><br>Las listas en Sass son colecciones de valores ordenados, similares a los arrays en otros lenguajes. Pueden contener cualquier tipo de valor, como números, cadenas, colores, etc.<br>
+<br>Las listas pueden ser separadas por comas o por espacios.
+<br>Ejemplo de lista:<br>$colores: red, blue, green;
+<br><br>Los mapas son colecciones de pares clave-valor. Son similares a los objetos en JavaScript o los diccionarios en otros lenguajes. En Sass, un mapa permite asociar un nombre (clave) con un valor específico, y puedes usar este par dentro de bucles.<br>Ejemplo de mapa:<br>$colores: (
+  rojo: red,
+  azul: blue,
+  verde: green
+);
+<br><br><br><br>El bucle @for permite iterar a través de un rango de números.<br>Sintaxis:<br>@for $i from &lt;valor_inicial&gt; through &lt;valor_final&gt; {
+  // Bloque de código a ejecutar
+}
+<br>
+<br>$i es la variable que tomará el valor de cada número dentro del rango.
+<br>from &lt;valor_inicial&gt; define el inicio del bucle.
+<br>through &lt;valor_final&gt; define el final del bucle (inclusive).
+<br>Ejemplo:<br>@for $i from 1 through 5 {
+  .item-#{$i} {
+    width: 20px * $i;
+  }
+}
+<br>Este código generará las siguientes clases:<br>.item-1 { width: 20px; }
+.item-2 { width: 40px; }
+.item-3 { width: 60px; }
+.item-4 { width: 80px; }
+.item-5 { width: 100px; }
+<br><br>El bucle @each es útil cuando tienes una lista o un mapa y deseas iterar sobre sus elementos. Es una manera muy eficiente de trabajar con colecciones de valores en Sass.<br>Sintaxis (para listas):<br>@each $item in &lt;lista&gt; {
+  // Bloque de código a ejecutar con $item
+}
+<br>Sintaxis (para mapas):<br>@each $key, $value in &lt;mapa&gt; {
+  // Bloque de código a ejecutar con $key y $value
+}
+<br>
+<br>$item es la variable que tomará cada valor de la lista o cada par clave-valor del mapa.
+<br>Ejemplo con lista:<br>$colores: red, blue, green;
+@each $color in $colores {
+  .text-#{$color} {
+    color: $color;
+  }
+}
+<br>Generará las siguientes clases:<br>.text-red { color: red; }
+.text-blue { color: blue; }
+.text-green { color: green; }
+<br>Ejemplo con mapa:<br>$colores: (
+  rojo: red,
+  azul: blue,
+  verde: green
+);
+
+@each $nombre, $color in $colores {
+  .text-#{$nombre} {
+    color: $color;
+  }
+}
+<br>Generará las siguientes clases:<br>.text-rojo { color: red; }
+.text-azul { color: blue; }
+.text-verde { color: green; }
+<br><br>El bucle @while se ejecuta mientras se cumpla una condición. Es útil cuando no sabes cuántas veces se ejecutará el bucle, pero tienes una condición de parada definida.<br>Sintaxis:<br>@while &lt;condición&gt; {
+  // Bloque de código a ejecutar
+}
+<br>
+<br>La condición debe ser una expresión que retorne true o false.
+<br>Ejemplo:<br>$i: 1;
+@while $i &lt;= 5 {
+  .item-#{$i} {
+    width: 20px * $i;
+  }
+  $i: $i + 1;
+}
+<br>Este código genera las mismas clases que el ejemplo con @for:<br>.item-1 { width: 20px; }
+.item-2 { width: 40px; }
+.item-3 { width: 60px; }
+.item-4 { width: 80px; }
+.item-5 { width: 100px; }
+<br><br>El bucle @for to se usa para hacer un bucle desde 0 hasta n-1, es decir, el índice comienza desde 0 y el rango termina en uno menos que el valor final.<br>Ejemplo:<br>@for $i from 0 to 4 {
+  .g--border-#{$i} {
+    border: 10px * $i solid #00FF00;
+  }
+}
+<br>Este código genera el siguiente CSS:<br>.g--border-0 {
+  border: 0px solid #00FF00;
+}
+
+.g--border-1 {
+  border: 10px solid #00FF00;
+}
+
+.g--border-2 {
+  border: 20px solid #00FF00;
+}
+
+.g--border-3 {
+  border: 30px solid #00FF00;
+}
+<br><br>El bucle @for through se usa para hacer un bucle desde 1 hasta n (inclusive). El índice comienza en 1 y termina en el valor especificado.<br>Ejemplo:<br>@for $i from 1 through 4 {
+  .g--border-#{$i} {
+    border: 10px * $i solid #00FF00;
+  }
+}
+<br>Este código genera el siguiente CSS:<br>.g--border-1 {
+  border: 10px solid #00FF00;
+}
+
+.g--border-2 {
+  border: 20px solid #00FF00;
+}
+
+.g--border-3 {
+  border: 30px solid #00FF00;
+}
+
+.g--border-4 {
+  border: 40px solid #00FF00;
+}
+<br><br><br>El uso de &amp; en SASS te permite escribir menos con el nombre de las clases, ya que el &amp; se convierte en el nombre de la clase padre.<br>AAA {
+  color:red;
+   
+  &amp;__BBB {
+    padding:5px;
+  }
+}
+<br>Se transforma en:<br>AAA {
+  color:red;
+}
+   
+AAA__BBB {
+  padding:5px;
+}
+<br><br><br>El anidamiento en Sass es una característica que te permite escribir reglas CSS dentro de otras reglas, lo que mejora la organización y la legibilidad de tu código. Esto es especialmente útil cuando tienes reglas que dependen de un selector principal (como un contenedor o clase) y quieres evitar repetirlo en cada declaración.<br>¿Cómo funciona el anidamiento?<br>En Sass, puedes anidar selectores dentro de otros, lo que simula la estructura jerárquica del HTML. Esto evita la necesidad de escribir el selector completo varias veces.<br>Ejemplo:<br>.container {
+  width: 100%;
+  padding: 20px;
+
+  .header {
+    background-color: #333;
+    color: white;
+  }
+
+  .footer {
+    background-color: #444;
+    color: white;
+  }
+}
+<br>Se transforma en:<br>.container {
+  width: 100%;
+  padding: 20px;
+}
+
+.container .header {
+  background-color: #333;
+  color: white;
+}
+
+.container .footer {
+  background-color: #444;
+  color: white;
+}
+<br>
+<br>.container es el selector principal, y dentro de él, anidamos los selectores .header y .footer.
+<br>Sass genera automáticamente el selector completo .container .header y .container .footer en el CSS, eliminando la necesidad de escribirlo manualmente.
+<br><br><br>Un módulo en Sass es simplemente un archivo SCSS o Sass que contiene un conjunto de reglas, funciones, mixins o variables. Puedes dividir tu código en diferentes archivos, cada uno con un propósito específico (por ejemplo, un archivo para colores, otro para tipografía, etc.), y luego usar @use o @import para combinarlos en un solo archivo principal.<br>@import "./_c-button.scs
+<br>Note
+ Los ficheros que importamos deben empezar por _ para que no genere también el CSS de ese fichero o no llevarlo para que lo genere
+<br><br><br>Un mixin es una especie de "plantilla" o "función" en Sass que contiene un bloque de código CSS. Este bloque de código se puede incluir en cualquier lugar donde lo necesites mediante el uso de @include.<br>Ejemplo:<br>@mixin box-shadow($color) {
+  -webkit-box-shadow: 2px 10px 24px $color;
+  -moz-box-shadow: 2px 10px 24px $color;
+  box-shadow: 2px 10px 24px $color;
+}
+<br>
+<br>@mixin box-shadow($color) define un mixin llamado box-shadow que recibe un parámetro $color. Este parámetro puede ser cualquier color que desees usar al invocar el mixin.
+<br>Dentro del mixin, tienes el bloque de código CSS para aplicar la propiedad box-shadow en diferentes navegadores (con prefijos -webkit- y -moz- para compatibilidad con versiones anteriores de algunos navegadores).
+<br>Ahora, puedes usar este mixin en cualquier lugar de tu código:<br>.c-button {
+  color: #FF0000;
+  @include box-shadow(#FF0000);
+}
+ 
+.c-panel {
+  color: #00FF00;
+  @include box-shadow(#00FF00);
+}
+<br>
+<br>En el caso de .c-button, estás incluyendo el mixin box-shadow y pasándole el color #FF0000 (rojo).
+<br>En el caso de .c-panel, estás incluyendo el mismo mixin, pero con un color diferente, #00FF00 (verde).
+<br>Cómo se transforma:<br>Cuando Sass compila este código, los mixins se "expandirán" e insertarán directamente en el CSS resultante, reemplazando la llamada @include por el bloque de reglas CSS correspondiente.<br>El CSS resultante sería:<br>.c-button {
+  color: #FF0000;
+  -webkit-box-shadow: 2px 10px 24px #FF0000;
+  -moz-box-shadow: 2px 10px 24px #FF0000;
+  box-shadow: 2px 10px 24px #FF0000;
+}
+ 
+.c-panel {
+  color: #00FF00;
+  -webkit-box-shadow: 2px 10px 24px #00FF00;
+  -moz-box-shadow: 2px 10px 24px #00FF00;
+  box-shadow: 2px 10px 24px #00FF00;
+}
+<br>El uso de mixins es una excelente forma de evitar duplicación de código, especialmente cuando necesitas aplicar un conjunto de reglas CSS similares en varios lugares de tu proyecto.<br><br><br>Una función en Sass permite realizar operaciones y devolver un valor calculado. Puedes crear una función personalizada usando la directiva @function, y dentro de la función puedes definir cómo se calculará y devolverá el valor. Luego, esa función se puede llamar en cualquier parte del código donde necesites el valor calculado.<br>Ejemplo:<br>@function getBorderSize($size) {
+  @return 10px * $size;
+}
+<br>
+<br>@function getBorderSize($size): Aquí estamos definiendo una función llamada getBorderSize. Esta función toma un parámetro $size, que representará el valor con el que multiplicar el valor base de 10px.
+<br>@return 10px * $size: Dentro de la función, realizamos una operación de multiplicación con el valor pasado a $size y 10px. El resultado de esta multiplicación se devuelve con @return.
+<br>Luego, podemos usar esta función en el resto de nuestro código CSS. En el siguiente caso, usamos la función getBorderSize(2) para calcular el valor del borde de un botón:<br>.c-button {
+  color: #FF0000;
+  border: getBorderSize(2) solid #00FF00;
+}
+<br>
+<br>Aquí, estamos llamando a la función getBorderSize(2), lo que devuelve 10px * 2, es decir, 20px.
+<br>Así que el borde del botón será de 20px de grosor y de color verde (#00FF00).
+<br>Cómo se transforma:<br>Cuando Sass compila este código, la función getBorderSize(2) se evalúa y se reemplaza por el valor calculado, en este caso, 20px. El resultado final en CSS es:<br>.c-button {
+  color: #FF0000;
+  border: 20px solid #00FF00;
+}
+<br><br><br>En Sass, @if permite agregar decisiones condicionales en tu código. Es como decir: "Si pasa esto, haz esto otro, de lo contrario, haz otra cosa".<br>Y si quieres agregar una opción alternativa si la condición no se cumple, puedes usar @else.<br>Ejemplo con @if y @else:<br>@mixin border($size) {
+  // Si el tamaño es mayor o igual a 3px, cambia el color a rojo
+  @if $size &gt;= 3 {
+    $color: #FF0000; // Si el tamaño es mayor o igual a 3, el color será rojo
+  } @else {
+    $color: #00FF00; // Si no, el color será verde
+  }
+
+  border: $size * 2 solid $color; // Establece el borde con el tamaño y color
+}
+
+.c-caja1 {
+  color: #FF0000;
+  @include border(2px); // Llama al mixin con tamaño 2px
+}
+
+.c-caja2 {
+  color: #FF0000;
+  @include border(5px); // Llama al mixin con tamaño 5px
+}
+<br>
+<br>Definimos el mixin border($size):
+
+<br>Comienza con un color predeterminado: verde (#00FF00).
+<br>Luego, con el condicional @if, verificamos si el valor de $size es mayor o igual a 3:
+
+<br>Si es así, cambiamos el color a rojo.
+<br>Si no lo es, usamos el color verde.
+
+
+<br>Finalmente, aplicamos el borde con un tamaño dos veces mayor que $size y el color calculado.
+
+
+<br>Usamos el mixin en las clases .c-caja1 y .c-caja2:
+
+<br>.c-caja1: Usamos el mixin con un tamaño de 2px. Como 2px no es mayor o igual a 3, el color será verde (#00FF00) y el borde será 4px solid #00FF00.
+<br>.c-caja2: Usamos el mixin con un tamaño de 5px. Como 5px es mayor o igual a 3, el color será rojo (#FF0000) y el borde será 10px solid #FF0000.
+
+
+<br>Resultado final en CSS:<br>.c-caja1 {
+  color: #FF0000;
+  border: 4px solid #00FF00; /* Borde verde */
+}
+
+.c-caja2 {
+  color: #FF0000;
+  border: 10px solid #FF0000; /* Borde rojo */
+}
+<br><br><br><br>Las funciones de cadenas en Sass se utilizan para manipular y obtener información sobre las cadenas de texto.<br><br><br>Las funciones numéricas en Sass se utilizan para manipular valores numéricos.<br><br><br>Las funciones de lista en Sass se utilizan para acceder a valores dentro de una lista, combinar listas y agregar elementos a listas.<br>Es importante tener en cuenta que las listas en Sass son inmutables, lo que significa que no pueden modificarse directamente. Cuando una función de lista devuelve una lista, devuelve una nueva lista en lugar de modificar la original.<br>Además, las listas en Sass son indexadas desde 1, no desde 0.<br><br><br>En Sass, el tipo de dato mapa representa uno o más pares clave/valor.<br>Consejo: También es posible usar las funciones de lista, que vimos en la sección  anterior, con mapas. En ese caso, el mapa será tratado como una lista de dos elementos (clave y valor).<br>Los mapas en Sass son inmutables, lo que significa que no se pueden modificar directamente. Las funciones que devuelven un mapa devolverán un nuevo mapa, y no cambiarán el mapa original.<br><br><br>Las funciones de selector en Sass se utilizan para comprobar y manipular selectores dentro de las hojas de estilo.<br><br><br>Las funciones de introspección son útiles principalmente para la depuración, ya que permiten obtener información sobre el estado del código, las variables, funciones, mixins, y más. Estas funciones rara vez se usan cuando se construye una hoja de estilo, pero son muy valiosas cuando algo no funciona correctamente o se necesita depurar el código.<br><br><br>En Sass, las funciones de color se dividen en tres categorías principales: funciones de establecimiento de color, funciones para obtener información del color y funciones para manipular colores. A continuación se presenta un resumen de cada tipo de función y su uso.<br><br>Estas funciones se utilizan para definir colores utilizando diferentes modelos de color.<br><br><br>Estas funciones devuelven información detallada sobre un color específico.<br><br><br>Estas funciones permiten ajustar, mezclar o modificar colores de diversas maneras.<br><br><br>]]></description><link>4-sass\sass.html</link><guid isPermaLink="false">4- SASS/SASS.md</guid><pubDate>Thu, 28 Nov 2024 16:26:27 GMT</pubDate></item><item><title><![CDATA[ARQUITECTURA]]></title><description><![CDATA[ 
+ <br><br>Debemos organizar las clases CSS de una manera estructurada y mantenible, para ello podermos usar una metodología conocida como BEM (Block, Element, Modifier). Esta metodología se utiliza para evitar el caos en el código CSS y mejorar la escalabilidad de los proyectos. Aquí te explico los conceptos clave que mencionas:<br><br>BEM es una convención de nombres para clases CSS que ayuda a hacer el código más claro y modular. Los nombres de las clases están estructurados en tres partes principales:<br>
+<br>
+Bloques (Block): Un bloque es una parte independiente de la interfaz de usuario. Es un componente reutilizable que puede incluir otros elementos dentro de él. Por ejemplo, un bloque puede ser un panel, un botón o un menú.
+  Ejemplo: c-panel (donde "c" es un prefijo que indica que es un bloque visual).
+
+<br>
+Elementos (Element): Son las partes internas de un bloque. Estos no pueden existir por sí solos, solo dentro de un bloque. Se indican con el nombre del bloque seguido de dos guiones __.
+  Ejemplo: c-panel__titulo (el título dentro del bloque c-panel).
+
+<br>
+Modificadores (Modifier): Se utilizan para modificar el estilo de un bloque o elemento, normalmente para cambiar su apariencia o comportamiento (por ejemplo, un color diferente, un tamaño distinto, etc.). Se añaden después del nombre del bloque o elemento, separadas por dos guiones --.
+  Ejemplo: c-panel--warning (un modificador de color para un bloque c-panel que aplica un estilo de advertencia).
+
+<br><br><br>Las clases de CSS se organizan de la siguiente manera:<br>
+<br>Clase de Bloque: Se define con el nombre del componente, precedido por un prefijo c-. Ejemplo: c-button, c-header.
+<br>Clase de Elemento: Se define combinando el nombre del bloque y el nombre del elemento, separados por __. Ejemplo: c-button__icon.
+<br>Clase de Modificador: Se añade un modificador al nombre del bloque o elemento, precedido por --. Ejemplo: c-button--primary.
+<br><br><br>En el ejemplo de un panel:<br>&lt;div class="c-panel"&gt;
+    &lt;div class="c-panel__titulo"&gt;Cabecera&lt;/div&gt;
+    &lt;div class="c-panel__contenido"&gt;Contenido&lt;/div&gt;
+&lt;/div&gt;
+<br>
+<br>El bloque es c-panel.
+<br>Los elementos dentro de este bloque son c-panel__titulo y c-panel__contenido.
+<br><br><br>Si quieres que un bloque tenga una variante (por ejemplo, un panel con un color de advertencia), puedes agregar un modificador al bloque y a sus elementos:<br>&lt;div class="c-panel c-panel--warning"&gt;
+    &lt;div class="c-panel__titulo c-panel__titulo--warning"&gt;Cabecera&lt;/div&gt;
+    &lt;div class="c-panel__contenido c-panel__contenido--warning"&gt;Contenido&lt;/div&gt;
+&lt;/div&gt;
+<br>Aquí, c-panel--warning es el modificador que cambia el estilo del panel, y también se aplican modificadores a los elementos como c-panel__titulo--warning.<br><br><br>Además de los bloques de tipo "componente", existen otros tipos de bloques:<br>
+<br>
+l-: Para bloques de tipo layout, que se usan para organizar otros bloques en la página.
+  Ejemplo: l-page (es un layout que organiza el contenido de la página).
+
+<br>
+g--: Para modificadores globales que afectan a todos los componentes. Se utilizan para aspectos comunes como márgenes, paddings, etc.
+  Ejemplo: g--margin-4 (modificador global para márgenes).
+
+<br><br><br>En proyectos grandes, es importante organizar los archivos CSS (o SASS) de manera estructurada. Aquí hay una sugerencia de cómo organizar los archivos SASS según la metodología BEM:<br>/css
+    main.css
+/scss
+    /01_utilities
+        _css-variables.scss
+        _functions.scss
+    /02_base
+        _reset.scss
+        _typography.scss
+    /03_layout
+        _l-page.scss
+    /04_components
+        _c-button.scss
+        _c-panel.scss
+    /05_pages
+        _page-home.scss
+    /06_global
+        _g--margin.scss
+    main.scss
+<br>
+<br>01_utilities: Archivos de utilidades como variables y mixins.
+<br>02_base: Estilos básicos como reset de CSS y tipografía.
+<br>03_layout: Estilos para los bloques de layout (por ejemplo, la estructura de la página).
+<br>04_components: Estilos para los bloques de tipo componente (botones, paneles, etc.).
+<br>05_pages: Estilos específicos de páginas concretas.
+<br>06_global: Estilos globales como márgenes o padding que se usan en todo el proyecto.
+<br><img alt="arquitecturaEsquema.png" src="lib\media\arquitecturaesquema.png"><br>Script de Creación automática:<br>#!/bin/bash
+
+# Crear la estructura de carpetas
+mkdir -p css
+mkdir -p scss/{01_utilities,02_base,03_layout,04_components,05_pages,06_global}
+
+# Crear los archivos necesarios
+touch css/main.css
+touch scss/01_utilities/{_css-variables.scss,_functions.scss}
+touch scss/02_base/{_reset.scss,_typography.scss}
+touch scss/03_layout/_l-page.scss
+touch scss/04_components/{_c-button.scss,_c-panel.scss}
+touch scss/05_pages/_page-home.scss
+touch scss/06_global/_g--margin.scss
+touch scss/main.scss
+
+echo "Estructura creada con éxito."
+<br># Crear la estructura de carpetas
+New-Item -ItemType Directory -Path css
+New-Item -ItemType Directory -Path scss\01_utilities
+New-Item -ItemType Directory -Path scss\02_base
+New-Item -ItemType Directory -Path scss\03_layout
+New-Item -ItemType Directory -Path scss\04_components
+New-Item -ItemType Directory -Path scss\05_pages
+New-Item -ItemType Directory -Path scss\06_global
+
+# Crear los archivos necesarios
+New-Item -ItemType File -Path css\main.css
+New-Item -ItemType File -Path scss\01_utilities\_css-variables.scss
+New-Item -ItemType File -Path scss\01_utilities\_functions.scss
+New-Item -ItemType File -Path scss\02_base\_reset.scss
+New-Item -ItemType File -Path scss\02_base\_typography.scss
+New-Item -ItemType File -Path scss\03_layout\_l-page.scss
+New-Item -ItemType File -Path scss\04_components\_c-button.scss
+New-Item -ItemType File -Path scss\04_components\_c-panel.scss
+New-Item -ItemType File -Path scss\05_pages\_page-home.scss
+New-Item -ItemType File -Path scss\06_global\_g--margin.scss
+New-Item -ItemType File -Path scss\main.scss
+
+Write-Host "Estructura creada con éxito."
+]]></description><link>5-arquitectura\arquitectura.html</link><guid isPermaLink="false">5- Arquitectura/Arquitectura.md</guid><pubDate>Thu, 28 Nov 2024 16:30:18 GMT</pubDate><enclosure url="lib\media\arquitecturaesquema.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\arquitecturaesquema.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Webs Interesantes]]></title><description><![CDATA[ 
+ <br>
+<br>Grid Area: <a rel="noopener nofollow" class="external-link" href="https://css-tricks.com/almanac/properties/g/grid-template-areas/" target="_blank">https://css-tricks.com/almanac/properties/g/grid-template-areas/</a>
+<br>CSS: <a rel="noopener nofollow" class="external-link" href="https://htmlcheatsheet.com/css/" target="_blank">https://htmlcheatsheet.com/css/</a>
+<br>Plantillas:  <a rel="noopener nofollow" class="external-link" href="https://www.w3schools.com/css/css_templates.asp" target="_blank">https://www.w3schools.com/css/css_templates.asp</a><br>
+<a rel="noopener nofollow" class="external-link" href="https://www.quackit.com/html/templates/" target="_blank">https://www.quackit.com/html/templates/</a>
+]]></description><link>6-web-utilities\webs-interesantes.html</link><guid isPermaLink="false">6- Web Utilities/Webs Interesantes.md</guid><pubDate>Thu, 28 Nov 2024 16:11:05 GMT</pubDate></item></channel></rss>
