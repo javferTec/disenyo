@@ -1,66 +1,38 @@
 {
   "vaultName": "Diseño de Interfaces Web",
-  "lastExport": 1732811740479,
+  "lastExport": 1739038213570,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "1- El diseño web/El diseño web.md",
-    "2- Introduccion al CSS/Introduccion al CSS.md",
-    "3- CSS/CSS.md",
-    "4- SASS/SASS.md",
-    "5- Arquitectura/Arquitectura.md",
-    "6- Web Utilities/Webs Interesantes.md",
-    "7-CheatSheets/css3-cheatsheet-lite.pdf",
-    "7-CheatSheets/html5-cheatsheet-lite.pdf",
-    "7-CheatSheets/Sass(SCSS) and Compass Cheat Sheet.pdf",
-    "Excalidraw/Arquitectura.md",
-    "zImages/botones/alternativaPrimaria.png",
-    "zImages/botones/alternativaSecundaria.png",
-    "zImages/botones/alternativaTerciaria.png",
-    "zImages/botones/normalPrimaria.png",
-    "zImages/botones/normalSecundaria.png",
-    "zImages/botones/normalTerciaria.png",
-    "zImages/botones/peligrosaPrimaria.png",
-    "zImages/botones/peligrosaSecundaria.png",
-    "zImages/botones/peligrosaTerciaria.png",
-    "zImages/arquitecturaEsquema.png",
-    "zImages/colors.png",
-    "zImages/luzCielo.png",
-    "zImages/ruedaContraste.png",
-    "zImages/sombras.png",
+    "1a Evaluacion/1- El diseño web/El diseño web.md",
+    "1a Evaluacion/2- Introduccion al CSS/Introduccion al CSS.md",
+    "1a Evaluacion/3- CSS/CSS.md",
+    "1a Evaluacion/4- SASS/SASS.md",
+    "1a Evaluacion/5- Arquitectura/Arquitectura.md",
+    "1a Evaluacion/6- Web Utilities/Webs Interesantes.md",
+    "1a Evaluacion/7-CheatSheets/css3-cheatsheet-lite.pdf",
+    "1a Evaluacion/7-CheatSheets/html5-cheatsheet-lite.pdf",
+    "1a Evaluacion/7-CheatSheets/Sass(SCSS) and Compass Cheat Sheet.pdf",
+    "1a Evaluacion/Excalidraw/Arquitectura.md",
+    "1a Evaluacion/zImages/botones/alternativaPrimaria.png",
+    "1a Evaluacion/zImages/botones/alternativaSecundaria.png",
+    "1a Evaluacion/zImages/botones/alternativaTerciaria.png",
+    "1a Evaluacion/zImages/botones/normalPrimaria.png",
+    "1a Evaluacion/zImages/botones/normalSecundaria.png",
+    "1a Evaluacion/zImages/botones/normalTerciaria.png",
+    "1a Evaluacion/zImages/botones/peligrosaPrimaria.png",
+    "1a Evaluacion/zImages/botones/peligrosaSecundaria.png",
+    "1a Evaluacion/zImages/botones/peligrosaTerciaria.png",
+    "1a Evaluacion/zImages/arquitecturaEsquema.png",
+    "1a Evaluacion/zImages/colors.png",
+    "1a Evaluacion/zImages/luzCielo.png",
+    "1a Evaluacion/zImages/ruedaContraste.png",
+    "1a Evaluacion/zImages/sombras.png",
+    "2a Evaluacion/1- Diseño Responsivo.md",
+    "2a Evaluacion/2- Animaciones.md",
     "index.md",
-    "lib/scripts/graph-wasm.wasm",
-    "lib/fonts/94f2f163d4b698242fef.otf",
-    "lib/fonts/72505e6a122c6acd5471.woff2",
-    "lib/fonts/2d5198822ab091ce4305.woff2",
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
-    "lib/fonts/cb10ffd7684cd9836a05.woff2",
-    "lib/fonts/b5f0f109bc88052d4000.woff2",
-    "lib/fonts/cbe0ae49c52c920fd563.woff2",
-    "lib/fonts/535a6cf662596b3bd6a6.woff2",
-    "lib/fonts/70cc7ff27245e82ad414.ttf",
-    "lib/fonts/454577c22304619db035.ttf",
-    "lib/fonts/52ac8f3034507f1d9e53.ttf",
-    "lib/fonts/05b618077343fbbd92b7.ttf",
-    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg",
-    "lib/html/file-tree.html",
-    "lib/scripts/webpage.js",
-    "lib/scripts/graph-view.js",
-    "lib/scripts/graph-wasm.js",
-    "lib/scripts/graph-render-worker.js",
-    "lib/scripts/tinycolor.js",
-    "lib/scripts/pixi.js",
-    "lib/scripts/minisearch.js",
-    "lib/media/favicon.png",
-    "lib/scripts/graph-data.js",
-    "lib/styles/obsidian.css",
-    "lib/styles/theme.css",
-    "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css",
-    "lib/styles/snippets.css",
     "lib/media/colors.png",
     "lib/media/luzcielo.png",
     "lib/media/ruedacontraste.png",
@@ -76,7 +48,59 @@
     "lib/media/sombras.png",
     "lib/media/css3-cheatsheet-lite.pdf",
     "lib/media/sass(scss)-and-compass-cheat-sheet.pdf",
-    "lib/media/arquitecturaesquema.png"
+    "lib/media/arquitecturaesquema.png",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css",
+    "lib/styles/snippets.css"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -94,6 +118,28 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
+    "lib/fonts/mathjax_zero.woff",
+    "lib/fonts/mathjax_main-regular.woff",
+    "lib/fonts/mathjax_main-bold.woff",
+    "lib/fonts/mathjax_math-italic.woff",
+    "lib/fonts/mathjax_main-italic.woff",
+    "lib/fonts/mathjax_math-bolditalic.woff",
+    "lib/fonts/mathjax_size1-regular.woff",
+    "lib/fonts/mathjax_size2-regular.woff",
+    "lib/fonts/mathjax_size3-regular.woff",
+    "lib/fonts/mathjax_size4-regular.woff",
+    "lib/fonts/mathjax_ams-regular.woff",
+    "lib/fonts/mathjax_calligraphic-regular.woff",
+    "lib/fonts/mathjax_calligraphic-bold.woff",
+    "lib/fonts/mathjax_fraktur-regular.woff",
+    "lib/fonts/mathjax_fraktur-bold.woff",
+    "lib/fonts/mathjax_sansserif-regular.woff",
+    "lib/fonts/mathjax_sansserif-bold.woff",
+    "lib/fonts/mathjax_sansserif-italic.woff",
+    "lib/fonts/mathjax_script-regular.woff",
+    "lib/fonts/mathjax_typewriter-regular.woff",
+    "lib/fonts/mathjax_vector-regular.woff",
+    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -111,10 +157,292 @@
     "lib/styles/snippets.css"
   ],
   "fileInfo": {
-    "1- El diseño web/El diseño web.md": {
-      "modifiedTime": 1732811432586,
+    "lib/media/colors.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 35588,
+      "exportedPath": "lib/media/colors.png",
+      "dependencies": []
+    },
+    "lib/media/luzcielo.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 194524,
+      "exportedPath": "lib/media/luzcielo.png",
+      "dependencies": []
+    },
+    "lib/media/ruedacontraste.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 87742,
+      "exportedPath": "lib/media/ruedacontraste.png",
+      "dependencies": []
+    },
+    "lib/media/normalprimaria.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 2006,
+      "exportedPath": "lib/media/normalprimaria.png",
+      "dependencies": []
+    },
+    "lib/media/normalsecundaria.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 2010,
+      "exportedPath": "lib/media/normalsecundaria.png",
+      "dependencies": []
+    },
+    "lib/media/normalterciaria.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 1788,
+      "exportedPath": "lib/media/normalterciaria.png",
+      "dependencies": []
+    },
+    "lib/media/alternativaprimaria.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 1921,
+      "exportedPath": "lib/media/alternativaprimaria.png",
+      "dependencies": []
+    },
+    "lib/media/alternativasecundaria.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 1949,
+      "exportedPath": "lib/media/alternativasecundaria.png",
+      "dependencies": []
+    },
+    "lib/media/alternativaterciaria.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 1746,
+      "exportedPath": "lib/media/alternativaterciaria.png",
+      "dependencies": []
+    },
+    "lib/media/peligrosaprimaria.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 1853,
+      "exportedPath": "lib/media/peligrosaprimaria.png",
+      "dependencies": []
+    },
+    "lib/media/peligrosasecundaria.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 1904,
+      "exportedPath": "lib/media/peligrosasecundaria.png",
+      "dependencies": []
+    },
+    "lib/media/peligrosaterciaria.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 1677,
+      "exportedPath": "lib/media/peligrosaterciaria.png",
+      "dependencies": []
+    },
+    "lib/media/sombras.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 40282,
+      "exportedPath": "lib/media/sombras.png",
+      "dependencies": []
+    },
+    "lib/media/css3-cheatsheet-lite.pdf": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 691169,
+      "exportedPath": "lib/media/css3-cheatsheet-lite.pdf",
+      "dependencies": []
+    },
+    "lib/media/sass(scss)-and-compass-cheat-sheet.pdf": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 154607,
+      "exportedPath": "lib/media/sass(scss)-and-compass-cheat-sheet.pdf",
+      "dependencies": []
+    },
+    "lib/media/arquitecturaesquema.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 42403,
+      "exportedPath": "lib/media/arquitecturaesquema.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 18314,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 928,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 131118,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/theme.css": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 23119,
+      "exportedPath": "lib/styles/theme.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 236,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/snippets.css": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 1423,
+      "exportedPath": "lib/styles/snippets.css",
+      "dependencies": []
+    },
+    "index.md": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 550,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "1a Evaluacion/1- El diseño web/El diseño web.md": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 5157,
-      "exportedPath": "1-el-diseño-web/el-diseño-web.html",
+      "exportedPath": "1a-evaluacion/1-el-diseño-web/el-diseño-web.html",
       "dependencies": [
         "lib/media/colors.png",
         "lib/media/luzcielo.png",
@@ -130,431 +458,293 @@
         "lib/media/peligrosaterciaria.png"
       ]
     },
-    "2- Introduccion al CSS/Introduccion al CSS.md": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/2- Introduccion al CSS/Introduccion al CSS.md": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 5395,
-      "exportedPath": "2-introduccion-al-css/introduccion-al-css.html",
+      "exportedPath": "1a-evaluacion/2-introduccion-al-css/introduccion-al-css.html",
       "dependencies": []
     },
-    "3- CSS/CSS.md": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/3- CSS/CSS.md": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 13983,
-      "exportedPath": "3-css/css.html",
+      "exportedPath": "1a-evaluacion/3-css/css.html",
       "dependencies": [
         "lib/media/sombras.png",
         "lib/media/css3-cheatsheet-lite.pdf"
       ]
     },
-    "4- SASS/SASS.md": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/4- SASS/SASS.md": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 37231,
-      "exportedPath": "4-sass/sass.html",
+      "exportedPath": "1a-evaluacion/4-sass/sass.html",
       "dependencies": [
         "lib/media/sass(scss)-and-compass-cheat-sheet.pdf"
       ]
     },
-    "5- Arquitectura/Arquitectura.md": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/5- Arquitectura/Arquitectura.md": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 6257,
-      "exportedPath": "5-arquitectura/arquitectura.html",
+      "exportedPath": "1a-evaluacion/5-arquitectura/arquitectura.html",
       "dependencies": [
         "lib/media/arquitecturaesquema.png"
       ]
     },
-    "6- Web Utilities/Webs Interesantes.md": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/6- Web Utilities/Webs Interesantes.md": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 233,
-      "exportedPath": "6-web-utilities/webs-interesantes.html",
+      "exportedPath": "1a-evaluacion/6-web-utilities/webs-interesantes.html",
       "dependencies": []
     },
-    "7-CheatSheets/css3-cheatsheet-lite.pdf": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/7-CheatSheets/css3-cheatsheet-lite.pdf": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 691169,
-      "exportedPath": "7-cheatsheets/css3-cheatsheet-lite.pdf",
+      "exportedPath": "1a-evaluacion/7-cheatsheets/css3-cheatsheet-lite.pdf",
       "dependencies": []
     },
-    "7-CheatSheets/html5-cheatsheet-lite.pdf": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/7-CheatSheets/html5-cheatsheet-lite.pdf": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 278666,
-      "exportedPath": "7-cheatsheets/html5-cheatsheet-lite.pdf",
+      "exportedPath": "1a-evaluacion/7-cheatsheets/html5-cheatsheet-lite.pdf",
       "dependencies": []
     },
-    "7-CheatSheets/Sass(SCSS) and Compass Cheat Sheet.pdf": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/7-CheatSheets/Sass(SCSS) and Compass Cheat Sheet.pdf": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 154607,
-      "exportedPath": "7-cheatsheets/sass(scss)-and-compass-cheat-sheet.pdf",
+      "exportedPath": "1a-evaluacion/7-cheatsheets/sass(scss)-and-compass-cheat-sheet.pdf",
       "dependencies": []
     },
-    "Excalidraw/Arquitectura.md": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/Excalidraw/Arquitectura.md": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 10711,
-      "exportedPath": "excalidraw/arquitectura.html",
+      "exportedPath": "1a-evaluacion/excalidraw/arquitectura.html",
       "dependencies": []
     },
-    "zImages/botones/alternativaPrimaria.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/botones/alternativaPrimaria.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 1921,
-      "exportedPath": "zimages/botones/alternativaprimaria.png",
+      "exportedPath": "1a-evaluacion/zimages/botones/alternativaprimaria.png",
       "dependencies": []
     },
-    "zImages/botones/alternativaSecundaria.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/botones/alternativaSecundaria.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 1949,
-      "exportedPath": "zimages/botones/alternativasecundaria.png",
+      "exportedPath": "1a-evaluacion/zimages/botones/alternativasecundaria.png",
       "dependencies": []
     },
-    "zImages/botones/alternativaTerciaria.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/botones/alternativaTerciaria.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 1746,
-      "exportedPath": "zimages/botones/alternativaterciaria.png",
+      "exportedPath": "1a-evaluacion/zimages/botones/alternativaterciaria.png",
       "dependencies": []
     },
-    "zImages/botones/normalPrimaria.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/botones/normalPrimaria.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 2006,
-      "exportedPath": "zimages/botones/normalprimaria.png",
+      "exportedPath": "1a-evaluacion/zimages/botones/normalprimaria.png",
       "dependencies": []
     },
-    "zImages/botones/normalSecundaria.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/botones/normalSecundaria.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 2010,
-      "exportedPath": "zimages/botones/normalsecundaria.png",
+      "exportedPath": "1a-evaluacion/zimages/botones/normalsecundaria.png",
       "dependencies": []
     },
-    "zImages/botones/normalTerciaria.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/botones/normalTerciaria.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 1788,
-      "exportedPath": "zimages/botones/normalterciaria.png",
+      "exportedPath": "1a-evaluacion/zimages/botones/normalterciaria.png",
       "dependencies": []
     },
-    "zImages/botones/peligrosaPrimaria.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/botones/peligrosaPrimaria.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 1853,
-      "exportedPath": "zimages/botones/peligrosaprimaria.png",
+      "exportedPath": "1a-evaluacion/zimages/botones/peligrosaprimaria.png",
       "dependencies": []
     },
-    "zImages/botones/peligrosaSecundaria.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/botones/peligrosaSecundaria.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 1904,
-      "exportedPath": "zimages/botones/peligrosasecundaria.png",
+      "exportedPath": "1a-evaluacion/zimages/botones/peligrosasecundaria.png",
       "dependencies": []
     },
-    "zImages/botones/peligrosaTerciaria.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/botones/peligrosaTerciaria.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 1677,
-      "exportedPath": "zimages/botones/peligrosaterciaria.png",
+      "exportedPath": "1a-evaluacion/zimages/botones/peligrosaterciaria.png",
       "dependencies": []
     },
-    "zImages/arquitecturaEsquema.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/arquitecturaEsquema.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 42403,
-      "exportedPath": "zimages/arquitecturaesquema.png",
+      "exportedPath": "1a-evaluacion/zimages/arquitecturaesquema.png",
       "dependencies": []
     },
-    "zImages/colors.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/colors.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 35588,
-      "exportedPath": "zimages/colors.png",
+      "exportedPath": "1a-evaluacion/zimages/colors.png",
       "dependencies": []
     },
-    "zImages/luzCielo.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/luzCielo.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 194524,
-      "exportedPath": "zimages/luzcielo.png",
+      "exportedPath": "1a-evaluacion/zimages/luzcielo.png",
       "dependencies": []
     },
-    "zImages/ruedaContraste.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/ruedaContraste.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 87742,
-      "exportedPath": "zimages/ruedacontraste.png",
+      "exportedPath": "1a-evaluacion/zimages/ruedacontraste.png",
       "dependencies": []
     },
-    "zImages/sombras.png": {
-      "modifiedTime": 1732811432586,
+    "1a Evaluacion/zImages/sombras.png": {
+      "modifiedTime": 1739038213570,
       "sourceSize": 40282,
-      "exportedPath": "zimages/sombras.png",
+      "exportedPath": "1a-evaluacion/zimages/sombras.png",
       "dependencies": []
     },
-    "lib/media/colors.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 35588,
-      "exportedPath": "lib/media/colors.png",
+    "2a Evaluacion/1- Diseño Responsivo.md": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 21149,
+      "exportedPath": "2a-evaluacion/1-diseño-responsivo.html",
       "dependencies": []
     },
-    "lib/media/luzcielo.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 194524,
-      "exportedPath": "lib/media/luzcielo.png",
+    "2a Evaluacion/2- Animaciones.md": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 8244,
+      "exportedPath": "2a-evaluacion/2-animaciones.html",
       "dependencies": []
     },
-    "lib/media/ruedacontraste.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 87742,
-      "exportedPath": "lib/media/ruedacontraste.png",
+    "lib/fonts/mathjax_zero.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 1368,
+      "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
-    "lib/media/normalprimaria.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 2006,
-      "exportedPath": "lib/media/normalprimaria.png",
+    "lib/fonts/mathjax_main-regular.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 34160,
+      "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
-    "lib/media/normalsecundaria.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 2010,
-      "exportedPath": "lib/media/normalsecundaria.png",
+    "lib/fonts/mathjax_main-bold.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 34464,
+      "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
-    "lib/media/normalterciaria.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 1788,
-      "exportedPath": "lib/media/normalterciaria.png",
+    "lib/fonts/mathjax_math-italic.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 19360,
+      "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
-    "lib/media/alternativaprimaria.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 1921,
-      "exportedPath": "lib/media/alternativaprimaria.png",
+    "lib/fonts/mathjax_main-italic.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 20832,
+      "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
-    "lib/media/alternativasecundaria.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 1949,
-      "exportedPath": "lib/media/alternativasecundaria.png",
+    "lib/fonts/mathjax_math-bolditalic.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 19776,
+      "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
-    "lib/media/alternativaterciaria.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 1746,
-      "exportedPath": "lib/media/alternativaterciaria.png",
+    "lib/fonts/mathjax_size1-regular.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 5792,
+      "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
-    "lib/media/peligrosaprimaria.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 1853,
-      "exportedPath": "lib/media/peligrosaprimaria.png",
+    "lib/fonts/mathjax_size2-regular.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 5464,
+      "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
-    "lib/media/peligrosasecundaria.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 1904,
-      "exportedPath": "lib/media/peligrosasecundaria.png",
+    "lib/fonts/mathjax_size3-regular.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 3244,
+      "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
-    "lib/media/peligrosaterciaria.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 1677,
-      "exportedPath": "lib/media/peligrosaterciaria.png",
+    "lib/fonts/mathjax_size4-regular.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 5148,
+      "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
-    "lib/media/sombras.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 40282,
-      "exportedPath": "lib/media/sombras.png",
+    "lib/fonts/mathjax_ams-regular.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 40808,
+      "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
-    "lib/media/css3-cheatsheet-lite.pdf": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 691169,
-      "exportedPath": "lib/media/css3-cheatsheet-lite.pdf",
+    "lib/fonts/mathjax_calligraphic-regular.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 9600,
+      "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
-    "lib/media/sass(scss)-and-compass-cheat-sheet.pdf": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 154607,
-      "exportedPath": "lib/media/sass(scss)-and-compass-cheat-sheet.pdf",
+    "lib/fonts/mathjax_calligraphic-bold.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 9908,
+      "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
-    "lib/media/arquitecturaesquema.png": {
-      "modifiedTime": 1732811432586,
-      "sourceSize": 42403,
-      "exportedPath": "lib/media/arquitecturaesquema.png",
+    "lib/fonts/mathjax_fraktur-regular.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 21480,
+      "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
-    "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 23377,
-      "exportedPath": "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/mathjax_fraktur-bold.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 22340,
+      "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
-    "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 66800,
-      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/mathjax_sansserif-regular.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 12660,
+      "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 104232,
-      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/mathjax_sansserif-bold.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 15944,
+      "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
-    "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 104332,
-      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/mathjax_sansserif-italic.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 14628,
+      "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 98868,
-      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/mathjax_script-regular.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 11852,
+      "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 106876,
-      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/mathjax_typewriter-regular.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 17604,
+      "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 105804,
-      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/mathjax_vector-regular.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 1136,
+      "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
-    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 106108,
-      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 111708,
-      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 192740,
-      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 161376,
-      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 191568,
-      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 155288,
-      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 7876,
-      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-      "dependencies": []
-    },
-    "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 317,
-      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
-      "dependencies": []
-    },
-    "lib/html/file-tree.html": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 16018,
-      "exportedPath": "lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "lib/scripts/webpage.js": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 47290,
-      "exportedPath": "lib/scripts/webpage.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-view.js": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 15519,
-      "exportedPath": "lib/scripts/graph-view.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 14021,
-      "exportedPath": "lib/scripts/graph-wasm.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 5179,
-      "exportedPath": "lib/scripts/graph-render-worker.js",
-      "dependencies": []
-    },
-    "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 29832,
-      "exportedPath": "lib/scripts/tinycolor.js",
-      "dependencies": []
-    },
-    "lib/scripts/pixi.js": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 449509,
-      "exportedPath": "lib/scripts/pixi.js",
-      "dependencies": []
-    },
-    "lib/scripts/minisearch.js": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 29422,
-      "exportedPath": "lib/scripts/minisearch.js",
-      "dependencies": []
-    },
-    "lib/media/favicon.png": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 1105,
-      "exportedPath": "lib/media/favicon.png",
-      "dependencies": []
-    },
-    "lib/scripts/graph-data.js": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 725,
-      "exportedPath": "lib/scripts/graph-data.js",
-      "dependencies": []
-    },
-    "lib/styles/obsidian.css": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 131118,
-      "exportedPath": "lib/styles/obsidian.css",
-      "dependencies": []
-    },
-    "lib/styles/theme.css": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 23119,
-      "exportedPath": "lib/styles/theme.css",
-      "dependencies": []
-    },
-    "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 236,
-      "exportedPath": "lib/styles/global-variable-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/main-styles.css": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 23130,
-      "exportedPath": "lib/styles/main-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/snippets.css": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 1423,
-      "exportedPath": "lib/styles/snippets.css",
-      "dependencies": []
-    },
-    "index.md": {
-      "modifiedTime": 1732811740479,
-      "sourceSize": 453,
-      "exportedPath": "index.html",
+    "lib/fonts/mathjax_vector-bold.woff": {
+      "modifiedTime": 1739038213570,
+      "sourceSize": 1116,
+      "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     }
   }

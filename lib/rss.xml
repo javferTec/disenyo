@@ -1,19 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Diseño de Interfaces Web]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Diseño de Interfaces Web</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 28 Nov 2024 16:35:43 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 28 Nov 2024 16:35:40 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Índice]]></title><description><![CDATA[ 
- <br><br>
-<br><a class="internal-link" data-href="El diseño web.md" href="1-el-diseño-web\el-diseño-web.html" target="_self" rel="noopener nofollow">El diseño web</a>
-<br><a class="internal-link" data-href="Introduccion al CSS.md" href="2-introduccion-al-css\introduccion-al-css.html" target="_self" rel="noopener nofollow">Introducción al CSS</a>
-<br><a class="internal-link" data-href="CSS.md" href="3-css\css.html" target="_self" rel="noopener nofollow">CSS</a>
-<br><a class="internal-link" data-href="SASS.md" href="4-sass\sass.html" target="_self" rel="noopener nofollow">SASS</a>
-<br><a class="internal-link" data-href="Arquitectura.md" href="excalidraw\arquitectura.html" target="_self" rel="noopener nofollow">Arquitectura</a>
-<br><a class="internal-link" data-href="Webs Interesantes.md" href="6-web-utilities\webs-interesantes.html" target="_self" rel="noopener nofollow">Web Utilities</a>
-<br>CheatSheets
-
-<br><a class="internal-link" data-href="css3-cheatsheet-lite.pdf" href="7-cheatsheets\css3-cheatsheet-lite.pdf" target="_self" rel="noopener nofollow">css3-cheatsheet-lite.pdf</a>
-<br><a class="internal-link" data-href="html5-cheatsheet-lite.pdf" href="7-cheatsheets\html5-cheatsheet-lite.pdf" target="_self" rel="noopener nofollow">html5-cheatsheet-lite.pdf</a>
-<br><a class="internal-link" data-href="Sass(SCSS) and Compass Cheat Sheet.pdf" href="7-cheatsheets\sass(scss)-and-compass-cheat-sheet.pdf" target="_self" rel="noopener nofollow">Sass(SCSS) and Compass Cheat Sheet.pdf</a>
-
-
-]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Thu, 28 Nov 2024 16:35:18 GMT</pubDate></item><item><title><![CDATA[EL DISEÑO WEB]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Diseño de Interfaces Web]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Diseño de Interfaces Web</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 08 Feb 2025 18:10:38 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 08 Feb 2025 18:10:13 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[EL DISEÑO WEB]]></title><description><![CDATA[ 
  <br><br><br>
 <br>Framework CSS: Es una colección de herramientas y estilos predefinidos que facilitan el diseño y la maquetación web, ofreciendo clases, componentes y utilidades listas para usar (por ejemplo, Bootstrap, Tailwind CSS).
 <br>Preprocesadores CSS: Herramientas que extienden CSS con características como variables, anidación y mixins. Generan CSS estándar a partir de un código más organizado (por ejemplo, Sass, LESS).
@@ -47,7 +32,7 @@ La gama de blancos y grises la usas para hacer las cosas muy claras u oscuras. L
 <br><br>0px, 2px, 4px, 6px, 8px, 16px
 <br>Note
 Obviamente se puede elegir los tamaños que se deseen pero se tiene que tener en cuenta que a mayor tamaño , mas debe ser el incremento entre uno y otro.
-<br><br>La experiencia de usuario es conseguir que el usuario se sienta cómodo usando la aplicación (UX).]]></description><link>1-el-diseño-web\el-diseño-web.html</link><guid isPermaLink="false">1- El diseño web/El diseño web.md</guid><pubDate>Wed, 27 Nov 2024 18:30:35 GMT</pubDate><enclosure url="lib\media\colors.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\colors.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[INTRODUCCIÓN AL CSS]]></title><description><![CDATA[ 
+<br><br>La experiencia de usuario es conseguir que el usuario se sienta cómodo usando la aplicación (UX).]]></description><link>1a-evaluacion\1-el-diseño-web\el-diseño-web.html</link><guid isPermaLink="false">1a Evaluacion/1- El diseño web/El diseño web.md</guid><pubDate>Wed, 27 Nov 2024 18:30:35 GMT</pubDate><enclosure url="lib\media\colors.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\colors.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[INTRODUCCIÓN AL CSS]]></title><description><![CDATA[ 
  <br><br><br><br>El layout de GRID es un tipo de layout que se usa en navegadores modernos para colocar las etiquetas HTML. Dispone de muchas opciones pero ahora solo vamos a ver lo mas básico.<br>
 <br>
 display: grid; Define al contenedor como un contenedor de grid, permitiendo que sus hijos se posicionen dentro de una cuadrícula.
@@ -195,7 +180,7 @@ PIE (ancho completo)
 <br><br>Cada navegador tiene propiedades cuyos valores por defecto son distintos unos de otros.E s necesario tener un CSS que ponga los valores de esas propiedades siempre iguales para que no haya tanta diferencia entre navegadores.<br>Incluir en todos los proyectos los siguientes CSS:<br>
 <br><a rel="noopener nofollow" class="external-link" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" target="_blank">https://necolas.github.io/normalize.css/8.0.1/normalize.css</a>
 <br><a rel="noopener nofollow" class="external-link" href="https://meyerweb.com/eric/tools/css/reset/" target="_blank">https://meyerweb.com/eric/tools/css/reset/</a>
-]]></description><link>2-introduccion-al-css\introduccion-al-css.html</link><guid isPermaLink="false">2- Introduccion al CSS/Introduccion al CSS.md</guid><pubDate>Wed, 27 Nov 2024 19:16:11 GMT</pubDate></item><item><title><![CDATA[CSS]]></title><description><![CDATA[ 
+]]></description><link>1a-evaluacion\2-introduccion-al-css\introduccion-al-css.html</link><guid isPermaLink="false">1a Evaluacion/2- Introduccion al CSS/Introduccion al CSS.md</guid><pubDate>Wed, 27 Nov 2024 19:16:11 GMT</pubDate></item><item><title><![CDATA[CSS]]></title><description><![CDATA[ 
  <br><br><br>
 <br>Con un fichero externo y añadiendo en el &lt;head&gt;:
 <br>&lt;link rel="stylesheet" href="main.css"&gt;
@@ -484,7 +469,7 @@ Contenedor Flexible:
 <br><br><br><br>Conclusión:<br>
 <br>Usa Grid para layouts en dos dimensiones (tablas, rejillas).
 <br>Usa Flexbox para alineación simple o distribuciones en una dimensión (menús, botones).
-<br><br>]]></description><link>3-css\css.html</link><guid isPermaLink="false">3- CSS/CSS.md</guid><pubDate>Thu, 28 Nov 2024 16:22:56 GMT</pubDate><enclosure url="lib\media\sombras.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\sombras.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[SASS]]></title><description><![CDATA[ 
+<br><br>]]></description><link>1a-evaluacion\3-css\css.html</link><guid isPermaLink="false">1a Evaluacion/3- CSS/CSS.md</guid><pubDate>Thu, 28 Nov 2024 16:22:56 GMT</pubDate><enclosure url="lib\media\sombras.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\sombras.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[SASS]]></title><description><![CDATA[ 
  <br><br>SASS es un preprocesador de CSS. Es como añadir funcionalidad a CSS que no tiene pero no de cosas del navegador sino para ayudar a escribir menos CSS. El código se escribe en SASS y se transforma en CSS. Permite bucles, funciones, variables ,etc.<br>
 <br>Transformar de SASS a CSS:
 <br>sass  ./main.scss ./main.css
@@ -853,7 +838,7 @@ AAA__BBB {
   color: #FF0000;
   border: 10px solid #FF0000; /* Borde rojo */
 }
-<br><br><br><br>Las funciones de cadenas en Sass se utilizan para manipular y obtener información sobre las cadenas de texto.<br><br><br>Las funciones numéricas en Sass se utilizan para manipular valores numéricos.<br><br><br>Las funciones de lista en Sass se utilizan para acceder a valores dentro de una lista, combinar listas y agregar elementos a listas.<br>Es importante tener en cuenta que las listas en Sass son inmutables, lo que significa que no pueden modificarse directamente. Cuando una función de lista devuelve una lista, devuelve una nueva lista en lugar de modificar la original.<br>Además, las listas en Sass son indexadas desde 1, no desde 0.<br><br><br>En Sass, el tipo de dato mapa representa uno o más pares clave/valor.<br>Consejo: También es posible usar las funciones de lista, que vimos en la sección  anterior, con mapas. En ese caso, el mapa será tratado como una lista de dos elementos (clave y valor).<br>Los mapas en Sass son inmutables, lo que significa que no se pueden modificar directamente. Las funciones que devuelven un mapa devolverán un nuevo mapa, y no cambiarán el mapa original.<br><br><br>Las funciones de selector en Sass se utilizan para comprobar y manipular selectores dentro de las hojas de estilo.<br><br><br>Las funciones de introspección son útiles principalmente para la depuración, ya que permiten obtener información sobre el estado del código, las variables, funciones, mixins, y más. Estas funciones rara vez se usan cuando se construye una hoja de estilo, pero son muy valiosas cuando algo no funciona correctamente o se necesita depurar el código.<br><br><br>En Sass, las funciones de color se dividen en tres categorías principales: funciones de establecimiento de color, funciones para obtener información del color y funciones para manipular colores. A continuación se presenta un resumen de cada tipo de función y su uso.<br><br>Estas funciones se utilizan para definir colores utilizando diferentes modelos de color.<br><br><br>Estas funciones devuelven información detallada sobre un color específico.<br><br><br>Estas funciones permiten ajustar, mezclar o modificar colores de diversas maneras.<br><br><br>]]></description><link>4-sass\sass.html</link><guid isPermaLink="false">4- SASS/SASS.md</guid><pubDate>Thu, 28 Nov 2024 16:26:27 GMT</pubDate></item><item><title><![CDATA[ARQUITECTURA]]></title><description><![CDATA[ 
+<br><br><br><br>Las funciones de cadenas en Sass se utilizan para manipular y obtener información sobre las cadenas de texto.<br><br><br>Las funciones numéricas en Sass se utilizan para manipular valores numéricos.<br><br><br>Las funciones de lista en Sass se utilizan para acceder a valores dentro de una lista, combinar listas y agregar elementos a listas.<br>Es importante tener en cuenta que las listas en Sass son inmutables, lo que significa que no pueden modificarse directamente. Cuando una función de lista devuelve una lista, devuelve una nueva lista en lugar de modificar la original.<br>Además, las listas en Sass son indexadas desde 1, no desde 0.<br><br><br>En Sass, el tipo de dato mapa representa uno o más pares clave/valor.<br>Consejo: También es posible usar las funciones de lista, que vimos en la sección  anterior, con mapas. En ese caso, el mapa será tratado como una lista de dos elementos (clave y valor).<br>Los mapas en Sass son inmutables, lo que significa que no se pueden modificar directamente. Las funciones que devuelven un mapa devolverán un nuevo mapa, y no cambiarán el mapa original.<br><br><br>Las funciones de selector en Sass se utilizan para comprobar y manipular selectores dentro de las hojas de estilo.<br><br><br>Las funciones de introspección son útiles principalmente para la depuración, ya que permiten obtener información sobre el estado del código, las variables, funciones, mixins, y más. Estas funciones rara vez se usan cuando se construye una hoja de estilo, pero son muy valiosas cuando algo no funciona correctamente o se necesita depurar el código.<br><br><br>En Sass, las funciones de color se dividen en tres categorías principales: funciones de establecimiento de color, funciones para obtener información del color y funciones para manipular colores. A continuación se presenta un resumen de cada tipo de función y su uso.<br><br>Estas funciones se utilizan para definir colores utilizando diferentes modelos de color.<br><br><br>Estas funciones devuelven información detallada sobre un color específico.<br><br><br>Estas funciones permiten ajustar, mezclar o modificar colores de diversas maneras.<br><br><br>]]></description><link>1a-evaluacion\4-sass\sass.html</link><guid isPermaLink="false">1a Evaluacion/4- SASS/SASS.md</guid><pubDate>Thu, 28 Nov 2024 16:26:27 GMT</pubDate></item><item><title><![CDATA[ARQUITECTURA]]></title><description><![CDATA[ 
  <br><br>Debemos organizar las clases CSS de una manera estructurada y mantenible, para ello podermos usar una metodología conocida como BEM (Block, Element, Modifier). Esta metodología se utiliza para evitar el caos en el código CSS y mejorar la escalabilidad de los proyectos. Aquí te explico los conceptos clave que mencionas:<br><br>BEM es una convención de nombres para clases CSS que ayuda a hacer el código más claro y modular. Los nombres de las clases están estructurados en tres partes principales:<br>
 <br>
 Bloques (Block): Un bloque es una parte independiente de la interfaz de usuario. Es un componente reutilizable que puede incluir otros elementos dentro de él. Por ejemplo, un bloque puede ser un panel, un botón o un menú.
@@ -957,10 +942,696 @@ New-Item -ItemType File -Path scss\06_global\_g--margin.scss
 New-Item -ItemType File -Path scss\main.scss
 
 Write-Host "Estructura creada con éxito."
-]]></description><link>5-arquitectura\arquitectura.html</link><guid isPermaLink="false">5- Arquitectura/Arquitectura.md</guid><pubDate>Thu, 28 Nov 2024 16:30:18 GMT</pubDate><enclosure url="lib\media\arquitecturaesquema.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\arquitecturaesquema.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Webs Interesantes]]></title><description><![CDATA[ 
+]]></description><link>1a-evaluacion\5-arquitectura\arquitectura.html</link><guid isPermaLink="false">1a Evaluacion/5- Arquitectura/Arquitectura.md</guid><pubDate>Thu, 28 Nov 2024 16:30:18 GMT</pubDate><enclosure url="lib\media\arquitecturaesquema.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\arquitecturaesquema.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Webs Interesantes]]></title><description><![CDATA[ 
  <br>
 <br>Grid Area: <a rel="noopener nofollow" class="external-link" href="https://css-tricks.com/almanac/properties/g/grid-template-areas/" target="_blank">https://css-tricks.com/almanac/properties/g/grid-template-areas/</a>
 <br>CSS: <a rel="noopener nofollow" class="external-link" href="https://htmlcheatsheet.com/css/" target="_blank">https://htmlcheatsheet.com/css/</a>
 <br>Plantillas:  <a rel="noopener nofollow" class="external-link" href="https://www.w3schools.com/css/css_templates.asp" target="_blank">https://www.w3schools.com/css/css_templates.asp</a><br>
 <a rel="noopener nofollow" class="external-link" href="https://www.quackit.com/html/templates/" target="_blank">https://www.quackit.com/html/templates/</a>
-]]></description><link>6-web-utilities\webs-interesantes.html</link><guid isPermaLink="false">6- Web Utilities/Webs Interesantes.md</guid><pubDate>Thu, 28 Nov 2024 16:11:05 GMT</pubDate></item></channel></rss>
+]]></description><link>1a-evaluacion\6-web-utilities\webs-interesantes.html</link><guid isPermaLink="false">1a Evaluacion/6- Web Utilities/Webs Interesantes.md</guid><pubDate>Thu, 28 Nov 2024 16:11:05 GMT</pubDate></item><item><title><![CDATA[Arquitectura]]></title><description><![CDATA[ 
+ 
+  
+  
+  
+    
+    
+  
+  VARIABLES SASSGLOBALESVARIABLES CSSCOMPONENTESLAYOUTgeneragenerausausausa]]></description><link>1a-evaluacion\excalidraw\arquitectura.html</link><guid isPermaLink="false">1a Evaluacion/Excalidraw/Arquitectura.md</guid><pubDate>Thu, 28 Nov 2024 12:53:45 GMT</pubDate></item><item><title><![CDATA[Responsivo vs Adaptativo]]></title><description><![CDATA[ 
+ <br>El diseño responsivo es una técnica de diseño web que permite que una página se adapte automáticamente al tamaño de la pantalla y al dispositivo desde el que se accede.<br><br>Hacer un diseño responsivo es que la misma página se adapte a distintos tamaños de pantalla. Hacer un diseño adaptativo es hacer páginas distintas según el tamaño de la pantalla.<br><br>Añadir a todas las páginas la siguiente linea en el&nbsp;&lt;head&gt;&nbsp;del HMTL. Con esto se consigue que la página tenga el tamaño del dispositivo, ya que sino se pone , el dispositivo podría hacer que la página se haga mas grande y crear barras de desplazamiento.<br>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+<br><br><br>Podemos hacer ciertos tamaños que sean en función del tamaño de la pantalla. Para ello se usan las unidades como&nbsp;vw&nbsp;o&nbsp;vh&nbsp;que hacen referencia al tamaño de la pantalla.<br>
+<br>vh&nbsp;Es la altura de la ventana. Un valor de 1vh es igual al 1% del alto.
+<br>vw&nbsp;Es el ancho de la ventana. Un valor de 1vw es igual al 1% del ancho.
+<br>vmin&nbsp;Mínimo entre el ancho y el alto. Es la dimensión más pequeña de la ventana. Si el alto de la ventana gráfica es menor que el ancho, el valor de 1vmin será igual al 1% de la altura. De manera similar, si el ancho es menor que la altura, el valor de 1vmin será igual al 1% del ancho.
+<br>vmax&nbsp;Máximo entre el ancho y el alto. Es la dimensión más grande de la ventana. Si el alto de la ventana gráfica es mayor que el ancho, el valor de 1vmin será igual al 1% de la altura. De manera similar, si el ancho es mayor que la altura, el valor de 1vmin será igual al 1% del ancho.
+<br><br>La unidad&nbsp;rem&nbsp;hace referencia al tamaño de fuente del HTML. El tamaño en píxeles se obtiene de multiplicar el valor de&nbsp;rem&nbsp;por el tamaño de la fuente de la página.<br><br>La unidad&nbsp;em&nbsp;hace referencia al tamaño de fuente del elemento donde está. El tamaño en píxeles se obtiene de multiplicar el valor de&nbsp;em&nbsp;por el tamaño de la fuente de ese elemento.<br><br><br>La función clamp() en CSS permite definir un valor que se encuentra entre un mínimo y un máximo, ajustándose dinámicamente en función del ancho de la pantalla.<br>La sintaxis es:<br>clamp(min, preferred, max)
+<br>
+<br>min: Valor mínimo (por ejemplo, 12px).
+<br>preferred: Valor dinámico (por ejemplo, 2.1621622vw + 7.02702694px).
+<br>max: Valor máximo (por ejemplo, 20px).
+<br>Ejemplo:<br>font-size: clamp(12px, 2.1621622vw + 7.02702694px, 20px);
+<br><br><br>Queremos que el valor de una propiedad (por ejemplo, font-size) varíe de forma lineal según el ancho de la pantalla. Para ello, expresamos el valor de la propiedad de la siguiente forma:<br><br>donde:<br>
+<br>ww es el ancho de la pantalla en píxeles.
+<br>AA es el factor de escala que se aplicará a cada 1vw (1vw = 1% del ancho de la pantalla).
+<br>BB es el desplazamiento (offset) en píxeles.
+<br>Queremos que se cumplan las siguientes condiciones:<br>
+<br>
+Para  (ancho mínimo), se obtenga el valor mínimo:
+
+
+<br>
+Para  (ancho máximo), se obtenga el valor máximo:
+
+
+<br><br><br><br>Dadas las dos ecuaciones:<br>
+<br>
+<br>
+<br>Restamos la primera ecuación de la segunda para eliminar BB:<br><br>Despejando AA:<br><br>
+Nota: Este AA es la pendiente que se usará en la parte de vw.
+<br><br>Usando la primera ecuación:<br><br>Despejamos BB:<br><br>
+Nota: BB es el desplazamiento (offset) en píxeles.
+<br><br><br>Supongamos que queremos configurar el font-size con las siguientes condiciones:<br>
+<br>
+<br>
+<br>
+<br>
+<br><br><br><br><br>Con estos cálculos, la función lineal es:<br><br>Y el CSS queda:<br>font-size: clamp(12px, 2.1621622vw + 7.02702694px, 20px);
+<br><br><br>Para automatizar estos cálculos, se puede crear una función en Sass que genere el valor de clamp():<br>@function calcular-clamp($min-value, $max-value, $min-width, $max-width) {
+  // Calcula la pendiente (valor en vw)
+  $pendiente: (($max-value - $min-value) / ($max-width - $min-width)) * 100;
+
+  // Calcula el coeficiente de posición (valor en px)
+  $coef-posicion: $min-value - ($pendiente / 100 * $min-width);
+
+  // Retorna el valor clamp con formato CSS
+  @return clamp(#{$min-value}px, #{$pendiente}vw + #{$coef-posicion}px, #{$max-value}px);
+}
+
+// Ejemplo de uso:
+.c-titulo {
+  font-size: calcular-clamp(12, 20, 230, 600);
+}
+<br><br>
+<br>Parámetros:
+
+<br>$min-value: Valor mínimo (ej. 12).
+<br>$max-value: Valor máximo (ej. 20).
+<br>$min-width: Ancho de pantalla mínimo (ej. 230).
+<br>$max-width: Ancho de pantalla máximo (ej. 600).
+
+
+<br>Cálculos:
+
+<br>Pendiente:
+  $pendiente=(maxValue−minValue)⋅100wupper−wlower\text{$pendiente} = \frac{(\text{maxValue} - \text{minValue}) \cdot 100}{w{\text{upper}} - w{\text{lower}}}
+<br>Coeficiente:
+  pendiente100⋅wlower\text{$coef-posicion} = \text{minValue} - \frac{\text{$pendiente}}{100} \cdot w_{\text{lower}}
+
+
+<br>Resultado: Se retorna un clamp() formateado para CSS.<br>
+
+<br><br><br>
+<br>
+Modelo Lineal:<br>
+Se expresa el valor dinámico como:
+
+
+<br>
+Derivación de AA:
+
+
+<br>
+Derivación de BB:
+
+
+<br>
+Ejemplo Práctico:<br>
+Con 
+
+<br>-    
+<br>CSS:
+font-size: clamp(12px, 2.1621622vw + 7.02702694px, 20px);
+
+
+
+
+<br>
+Función en Sass:<br>
+La función calcular-clamp() automatiza estos cálculos para generar el valor clamp() en CSS.
+
+<br><br>Hay muchas opciones al respecto de las imágenes responsivas. La técnica consiste principalmente en usar una imagen u otra en función de:<br>
+<br>Ancho o alto del dispositivo
+<br>Pixel-ratio del dispositivo
+<br>Tipos soportados por el navegador.
+<br>&lt;picture&gt;
+  &lt;source media="(min-width: 900px)" srcset="https://logongas.es/lib/exe/fetch.php?media=responsive-large.jpg" /&gt;
+  &lt;source media="(min-width: 500px)" srcset="https://logongas.es/lib/exe/fetch.php?media=responsive-medium.jpg" /&gt;
+  &lt;img src="https://logongas.es/lib/exe/fetch.php?media=responsive-small.jpg" alt="Responsive image" /&gt;
+&lt;/picture&gt;
+<br><br>Para hacer tablas responsivas, realmente lo único que podemos hacer es que haya barras de Scroll. Para eso ponemos un div sobre la tabla con la propiedad&nbsp;overflow: auto;<br>&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+        &lt;style&gt;
+            .c-table {
+              overflow: auto;
+            }
+            .c-table__head {
+               
+            }
+            .c-table__head--min-width-1 {
+              min-width: 100px;
+            }
+            .c-table__head--min-width-2 {
+              min-width: 150px;
+            }
+            .c-table__head--min-width-3 {
+              min-width: 200px;
+            }
+            .c-table__head--max-width-1 {
+              max-width: 100px;  
+            }
+            .c-table__head--max-width-2 {
+              max-width: 150px;  
+            }
+            .c-table__head--max-width-3 {
+              max-width: 200px;  
+            }
+ 
+            .c-table__head--width-1 {
+              width: 100px;
+              min-width: 100px;  
+            }
+            .c-table__head--width-2 {
+              width: 150px;
+              min-width: 150px;  
+            }
+            .c-table__head--width-3 {
+              width: 200px;
+              min-width: 200px;  
+            }
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1 &gt;Ejemplo de tablas responsivas&lt;/h1&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+ 
+        &lt;div class="c-table"&gt;
+            &lt;table&gt;
+            &lt;thead&gt;
+              &lt;tr&gt;
+                &lt;th class="c-table__head c-table__head--min-width-2 c-table__head--max-width-3"&gt;Author&lt;/th&gt;
+                &lt;th class="c-table__head c-table__head--min-width-2 c-table__head--max-width-3 "&gt;Title&lt;/th&gt;
+                &lt;th class="c-table__head c-table__head--min-width-1 c-table__head--max-width-2"&gt;Year&lt;/th&gt;
+                &lt;th class="c-table__head c-table__head--width-3"&gt;ISBN-13&lt;/th&gt;
+                &lt;th class="c-table__head c-table__head--width-2"&gt;ISBN-10&lt;/th&gt;
+              &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+              &lt;tr&gt;
+                &lt;td&gt;Miguel De Cervantes&lt;/td&gt;
+                &lt;td&gt;The Ingenious Gentleman Don Quixote of La Mancha&lt;/td&gt;
+                &lt;td&gt;1605&lt;/td&gt;
+                &lt;td&gt;9783125798502&lt;/td&gt;
+                &lt;td&gt;3125798507&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;Gabrielle-Suzanne Barbot de Villeneuve&lt;/td&gt;
+                &lt;td lang="fr"&gt;La Belle et la Bête&lt;/td&gt;
+                &lt;td&gt;1740&lt;/td&gt;
+                &lt;td&gt;9781910880067&lt;/td&gt;
+                &lt;td&gt;191088006X&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;Sir Isaac Newton&lt;/td&gt;
+                &lt;td&gt;The Method of Fluxions and Infinite Series: With Its Application to the Geometry of Curve-lines&lt;/td&gt;
+                &lt;td&gt;1763&lt;/td&gt;
+                &lt;td&gt;9781330454862&lt;/td&gt;
+                &lt;td&gt;1330454863&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;Mary Shelley&lt;/td&gt;
+                &lt;td&gt;Frankenstein; or, The Modern Prometheus&lt;/td&gt;
+                &lt;td&gt;1818&lt;/td&gt;
+                &lt;td&gt;9781530278442&lt;/td&gt;
+                &lt;td&gt;1530278449&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;Herman Melville&lt;/td&gt;
+                &lt;td&gt;Moby-Dick; or, The Whale&lt;/td&gt;
+                &lt;td&gt;1851&lt;/td&gt;
+                &lt;td&gt;9781530697908&lt;/td&gt;
+                &lt;td&gt;1530697905&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td &gt;Emma Dorothy Eliza Nevitte Southworth&lt;/td&gt;
+                &lt;td&gt;The Hidden Hand&lt;/td&gt;
+                &lt;td&gt;1888&lt;/td&gt;
+                &lt;td&gt;9780813512969&lt;/td&gt;
+                &lt;td&gt;0813512964&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;F. Scott Fitzgerald&lt;/td&gt;
+                &lt;td&gt;The Great Gatsby&lt;/td&gt;
+                &lt;td&gt;1925&lt;/td&gt;
+                &lt;td&gt;9780743273565&lt;/td&gt;
+                &lt;td&gt;0743273567&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;George Orwell&lt;/td&gt;
+                &lt;td&gt;Nineteen Eighty-Four&lt;/td&gt;
+                &lt;td&gt;1948&lt;/td&gt;
+                &lt;td&gt;9780451524935&lt;/td&gt;
+                &lt;td&gt;0451524934&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;Nnedi Okorafor&lt;/td&gt;
+                &lt;td&gt;Who Fears Death&lt;/td&gt;
+                &lt;td&gt;2010&lt;/td&gt;
+                &lt;td&gt;9780756406691&lt;/td&gt;
+                &lt;td&gt;0756406692&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+ 
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+     
+    &lt;/body&gt;
+ 
+&lt;/html&gt;
+<br><br>Permiten tener un CSS distinto según el tamaño de la pantalla. Como vemos para cada resolución se usa un CSS distinto y por lo tanto el tamaño es distinto según la resolución.<br>.c-titulo {
+    font-size: 40px;
+}
+ 
+  
+@media (min-width: 576px) {
+    .c-titulo {
+        font-size: 50px;
+    }
+}
+  
+@media (min-width: 768px) {
+    .c-titulo {
+        font-size: 55px;
+    }
+}
+  
+@media (min-width: 992px) {
+    .c-titulo {
+        font-size: 70px;
+    }
+}
+
+&lt;p class="c-titulo"&gt;Hola mundo&lt;/p&gt;
+<br><br>Pasemos ahora a ver como poder hacer las cosas responsivas con una simple arquitectura.<br>En el ejemplo por defecto el tamaño de la fuente será de 40px pero en resoluciones mayores de 992px será de 55px.<br>Lo que hacemos es crear todas los modificadores globales o modificadores de bloques para las distintas resoluciones pero añadiendo el sufijo&nbsp;@tablet&nbsp;,&nbsp;@desktop&nbsp;o&nbsp;@fulldesktop. E indicando en el HTML que tamaño usar según la resolución de la pantalla.<br>.g--font-size-1 {
+    font-size: 40px;
+}
+.g--font-size-2 {
+    font-size: 50px;
+}
+.g--font-size-3 {
+    font-size: 55px;
+}
+.g--font-size-4 {
+    font-size: 70px;
+}
+  
+@media (min-width: 576px) {
+    .g--font-size-1\@tablet {
+        font-size: 40px;
+    }
+    .g--font-size-2\@tablet {
+        font-size: 50px;
+    }
+    .g--font-size-3\@tablet {
+        font-size: 55px;
+    }
+    .g--font-size-4\@tablet {
+        font-size: 70px;
+    }
+}
+  
+@media (min-width: 768px) {
+    .g--font-size-1\@desktop {
+        font-size: 40px;
+    }
+    .g--font-size-2\@desktop {
+        font-size: 50px;
+    }
+    .g--font-size-3\@desktop {
+        font-size: 55px;
+    }
+    .g--font-size-4\@desktop {
+        font-size: 70px;
+    }
+}
+  
+@media (min-width: 992px) {
+    .g--font-size-1\@fulldesktop {
+        font-size: 40px;
+    }
+    .g--font-size-2\@fulldesktop {
+        font-size: 50px;
+    }
+    .g--font-size-3\@fulldesktop {
+        font-size: 55px;
+    }
+    .g--font-size-4\@fulldesktop {
+        font-size: 70px;
+    }
+}
+
+&lt;p class="g--font-size-1  g--font-size-3@fulldesktop"&gt;Hola mundo&lt;/p&gt;
+<br><br>Al crear la arquitectura responsiva es necesario indicar los pixeles de cada pantalla así como los tamaños. En los siguientes artículos se indica cuales se usan en diversos frameworks css.<br>
+<br>Bootstrap
+
+
+<br><br>&lt;div class="main-menu"&gt;
+    &lt;ul class="main-menu__items main-menu__items--movil-hide"&gt;
+        &lt;li class="main-menu__item"&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="main-menu__item"&gt;&lt;a href="#news"&gt;News&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="main-menu__item"&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="main-menu__item"&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;a href="javascript:void(0);" class="main-menu__hamburger" onclick="toggleVisibilityMenu()"&gt;☰&lt;/a&gt;
+&lt;/div&gt;
+&lt;h1 style="text-align: center"&gt;Mi empresa&lt;/h1&gt;
+&lt;p style="height: 1200px;width: 500px;"&gt;&lt;/p&gt;
+<br>.main-menu {
+    display: flex;
+    flex-direction: row;
+}
+ 
+@media (max-width: 499px) {
+    .main-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
+ 
+.main-menu__hamburger {
+    display: none;
+}
+@media (max-width: 499px) {
+    .main-menu__hamburger {
+        display: block;
+    }
+}
+ 
+ 
+ 
+ 
+.main-menu__items {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 499px) {
+    .main-menu__items {
+        flex-direction: column;
+    }
+}
+ 
+ 
+.main-menu__item {
+    padding: 10px;
+    color: #ffffff;
+    background-color: #c0c0c0;
+}
+@media (max-width: 499px) {
+    .main-menu__item {
+        padding-left: 2px;
+        background-color: #00ff00;
+    }
+}
+ 
+ 
+@media (max-width: 499px) {
+    .main-menu__items--movil-visible {
+        display: block;
+    }
+ 
+    .main-menu__items--movil-hide {
+        display: none;
+    }
+}
+<br>function toggleVisibilityMenu() {
+    var itemsElements = document.getElementsByClassName("main-menu__items");
+    var hamburgerElements = document.getElementsByClassName("main-menu__hamburger");
+ 
+if (itemsElements[0].className.indexOf("main-menu__items--movil-visible") &gt;= 0) {
+        itemsElements[0].className = " main-menu__items main-menu__items--movil-hide";
+    hamburgerElements[0].innerHTML = "☰";
+} else {
+    itemsElements[0].className = "main-menu__items main-menu__items--movil visible";
+    hamburgerElements[0].innerHTML = "Cerrar";
+  }
+}
+<br><br>Hemos visto varias formas de hacer las cosas responsivas. Veamos ahora una tabla en la que se explican las 4 formas posibles:<br><br>El tipo Externo/Escalonado es el más normal y es el que usan frameworks como Tailwind o Bootstrap.<br><br>.c-titulo {
+  font-size: 10vw;
+}
+<br>&lt;h1 class="c-titulo"&gt;Hola mundo&lt;/h1&gt;
+<br><br>.c-titulo {
+    font-size: 40px;
+}
+
+@media (min-width: 768px) {
+    .c-titulo {
+        font-size: 55px;
+    }
+}
+<br>&lt;h1 class="c-titulo"&gt;Hola mundo&lt;/h1&gt;
+<br><br>&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class="c-table__head c-table__head--min-width-2 c-table__head--max-width-3"&gt;Author&lt;/th&gt;
+    &lt;th class="c-table__head c-table__head--min-width-2 c-table__head--max-width-3"&gt;Title&lt;/th&gt;
+    &lt;th class="c-table__head c-table__head--min-width-1 c-table__head--max-width-2"&gt;Year&lt;/th&gt;
+    &lt;th class="c-table__head c-table__head--min-width-1 c-table__head--max-width-2"&gt;ISBN-13&lt;/th&gt;
+    &lt;th class="c-table__head c-table__head--min-width-1 c-table__head--max-width-2"&gt;ISBN-10&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+<br><br>&lt;p class="g--font-size-1  g--font-size-3@tablet"&gt;Hola mundo&lt;/p&gt;
+]]></description><link>2a-evaluacion\1-diseño-responsivo.html</link><guid isPermaLink="false">2a Evaluacion/1- Diseño Responsivo.md</guid><pubDate>Sat, 08 Feb 2025 18:06:17 GMT</pubDate></item><item><title><![CDATA[Transformaciones]]></title><description><![CDATA[ 
+ <br>
+<br>Transformaciones:<br>
+Aplicar cambios espaciales a un elemento HTML (mover, rotar, escalar, distorsionar).<br>
+Se usan con la propiedad CSS transform.
+<br>Transiciones:<br>
+API de CSS para suavizar cambios (por ejemplo, en estados :hover, :focus, etc.).<br>
+Se definen mediante la propiedad transition.
+<br>Animaciones:<br>
+API de CSS más compleja para animar propiedades (movimiento, colores, opacidad, etc.).<br>
+Se definen en dos partes: los fotogramas con @keyframes y los parámetros con la propiedad animation.<br>
+(En ocasiones se utiliza el término “animaciones” para referirse en general a cualquier movimiento en pantalla).
+<br><br>La propiedad transform permite:<br>
+<br>Mover: translate(x, y), translateX(n), translateY(n)
+<br>Escalar: scale(x, y), scaleX(n), scaleY(n)
+<br>Rotar: rotate(angle)
+<br>Distorsionar (skew): skew(x-angle, y-angle), skewX(angle), skewY(angle)
+<br>Ejemplos:<br>Mover el elemento 50px en X y 100px en Y:<br>div {
+  transform: translate(50px, 100px);
+}
+<br>Rotar el elemento 20 grados:<br>div {
+  transform: rotate(20deg);
+}
+<br>Hacer el doble de grande en X y triple en Y:<br>div {
+  transform: scale(2, 3);
+}
+<br>Hacer la mitad de grande en ambos ejes:<br>div {
+  transform: scale(0.5, 0.5);
+}
+<br>Distorsionar el elemento 20° en X y 10° en Y:<br>div {
+  transform: skew(20deg, 10deg);
+}
+<br>Aplicar varias transformaciones a la vez:<br>div {
+  transform: translate(50px, 100px) rotate(20deg);
+}
+<br>Además, CSS permite transformaciones 3D:<br>
+<br>translate3d(x,y,z), translateZ(z), etc.
+<br>scale3d(x,y,z), rotate3d(x,y,z,angle), perspective(n)
+<br><br>La propiedad transform-origin especifica el punto desde el que se aplica la transformación (por defecto, el centro).<br>Ejemplo, rotar respecto al centro (por defecto):<br>.cuadrado--rotate-centro {
+  transform: rotate(360deg);
+  transform-origin: 50% 50%;
+}
+<br>Rotar respecto a la esquina superior izquierda:<br>.cuadrado--rotate-esquina-superior-izquierda {
+  transform: rotate(360deg);
+  transform-origin: 0 0;
+}
+<br><br>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;transform-origin&lt;/title&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;style&gt;
+ 
+    &lt;/style&gt;
+ 
+    &lt;style&gt;
+        .l-center {
+            display: grid;
+            place-items: center;
+            width: 100%;
+            height: 50vw;
+        }
+ 
+        .c-cuadrado {
+            border: 1px solid red;
+            background: lightpink;
+            width:200px;
+            height: 200px;
+            transition: transform 4s;
+            transform-origin: 0 0;
+        }
+ 
+        .c-cuadrado:hover {
+            transform: rotate(360deg);
+        }
+ 
+    &lt;/style&gt;
+  &lt;/head&gt;
+ 
+  &lt;body&gt;
+        &lt;div class="l-center" &gt;
+          &lt;div class="c-cuadrado"&gt;Hola mundo&lt;/div&gt;
+        &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+<br><br><br>Las transiciones suavizan cambios en estados como :hover o :focus.<br>
+Ejemplo sin transición:<br>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+      &lt;style&gt;
+        .c-button {
+          padding: 10px 20px 10px 20px;
+          background-color: #ffffff;
+          border: 1px solid #bbd4f7;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+         
+        .c-button:hover {
+          background-color: #deebfc;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+      &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;button class="c-button"&gt;Aceptar&lt;/button&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+<br>El efecto es brusco al cambiar de estilos. Para suavizarlo se añade transition:<br>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+      &lt;style&gt;
+        .c-button {
+          padding: 10px 20px 10px 20px;
+          background-color: #ffffff;
+          border: 1px solid #bbd4f7;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: background-color 1s, box-shadow 1s;
+        }
+         
+        .c-button:hover {
+          background-color: #deebfc;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+      &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;button class="c-button"&gt;Aceptar&lt;/button&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+<br>La sintaxis de transition es:<br>transition: propiedadCSS duracion timing-function retardo;
+<br>
+<br>propiedadCSS: La propiedad a transicionar.
+<br>duracion: Tiempo de transición (ej. 1s).
+<br>timing-function: Velocidad de la transición (valores como linear, ease, ease-in, etc.).
+<br>retardo: Tiempo antes de iniciar la transición (recomendable usar al menos 0.3s en hover).
+<br>También se pueden definir por separado:<br>transition-property: width;
+transition-duration: 3s;
+transition-timing-function: ease-in-out;
+transition-delay: 2s;
+<br><br><br>Las animaciones son similares a las transiciones pero más potentes y, a veces, se controlan desde JavaScript.<br>
+Se componen de dos partes:<br>
+<br>Definición con @keyframes:<br>
+Se especifican los fotogramas (ej. 0%, 50%, 100%) y los estilos en cada uno.
+<br>Parámetros de la animación:<br>
+Se aplican con la propiedad animation (o sus propiedades individuales).
+<br>Ejemplo: Cuadrado giratorio que cambia de color<br>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;style&gt;
+            .c-cuadrado {
+              width: 100px;
+              height: 100px;
+              background-color: #bbd4f7;
+              border-radius: 4px;
+            }
+             
+            .c-cuadrado--girar {
+              animation-name: animacion-girar;
+              animation-duration: 3s;
+            }
+             
+            @keyframes animacion-girar {
+              0% {
+                transform: rotate(0deg);
+                background-color: #bbd4f7;
+              }
+               
+              50% {
+                transform: rotate(360deg);
+                background-color: #1C4673;
+              }
+               
+              100% {
+                transform: rotate(0deg);
+                background-color: #bbd4f7;
+              }  
+            }
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div style="padding:200px"&gt;
+            &lt;div id="cuadrado1" class="c-cuadrado c-cuadrado--girar"&gt;Hola&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+<br><br>
+<br>animation-name: Nombre de la animación (nombre definido en @keyframes).
+<br>animation-duration: Duración (ej. 3s).
+<br>animation-timing-function: Velocidad (valores: linear, ease, ease-in, etc.).
+<br>animation-delay: Retardo antes de iniciar.
+<br>animation-iteration-count: Número de repeticiones (infinite para repetir sin fin).
+<br>animation-direction: Dirección de la animación (normal, reverse, alternate, alternate-reverse).
+<br>animation-fill-mode: Estilos aplicados antes o después de la animación (none, forwards, backwards, both).
+<br>animation-play-state: Estado inicial (running o paused).
+<br>animation: Propiedad shorthand que agrupa todas las anteriores.
+<br><br>Para volver a ejecutar una animación se puede quitar y volver a agregar la clase CSS (se usa un pequeño setTimeout para forzar el reinicio):<br>function animar() {
+    var cuadradoElement = document.getElementById("cuadrado1");
+    cuadradoElement.classList.remove("c-cuadrado--girar");
+    setTimeout(function() {
+        cuadradoElement.classList.add("c-cuadrado--girar");
+    }, 10);
+}
+<br><br>Si se desea que la animación “vuelva” al estado inicial sin definir fotogramas de ida y vuelta, se puede usar:<br>
+<br>animation-iteration-count: 2; (dos repeticiones)
+<br>animation-direction: alternate; (la segunda reproducción en sentido inverso)
+<br>Ejemplo:<br>.c-cuadrado--girar {
+  animation-name: animacion-girar;
+  animation-duration: 1.5s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+ 
+ 
+@keyframes animacion-girar {
+  0% {
+    transform: rotate(0deg);
+    background-color: #bbd4f7;
+  }
+   
+  100% {
+    transform: rotate(360deg);
+    background-color: #1C4673;
+  } 
+}
+]]></description><link>2a-evaluacion\2-animaciones.html</link><guid isPermaLink="false">2a Evaluacion/2- Animaciones.md</guid><pubDate>Sat, 08 Feb 2025 17:45:00 GMT</pubDate></item><item><title><![CDATA[Índice]]></title><description><![CDATA[ 
+ <br><br>
+<br><a class="internal-link" data-href="El diseño web.md" href="1a-evaluacion\1-el-diseño-web\el-diseño-web.html" target="_self" rel="noopener nofollow">El diseño web</a>
+<br><a class="internal-link" data-href="Introduccion al CSS.md" href="1a-evaluacion\2-introduccion-al-css\introduccion-al-css.html" target="_self" rel="noopener nofollow">Introducción al CSS</a>
+<br><a class="internal-link" data-href="CSS.md" href="1a-evaluacion\3-css\css.html" target="_self" rel="noopener nofollow">CSS</a>
+<br><a class="internal-link" data-href="SASS.md" href="1a-evaluacion\4-sass\sass.html" target="_self" rel="noopener nofollow">SASS</a>
+<br><a class="internal-link" data-href="Arquitectura.md" href="1a-evaluacion\excalidraw\arquitectura.html" target="_self" rel="noopener nofollow">Arquitectura</a>
+<br><a class="internal-link" data-href="Webs Interesantes.md" href="1a-evaluacion\6-web-utilities\webs-interesantes.html" target="_self" rel="noopener nofollow">Web Utilities</a>
+<br>CheatSheets
+
+<br><a class="internal-link" data-href="css3-cheatsheet-lite.pdf" href="1a-evaluacion\7-cheatsheets\css3-cheatsheet-lite.pdf" target="_self" rel="noopener nofollow">css3-cheatsheet-lite.pdf</a>
+<br><a class="internal-link" data-href="html5-cheatsheet-lite.pdf" href="1a-evaluacion\7-cheatsheets\html5-cheatsheet-lite.pdf" target="_self" rel="noopener nofollow">html5-cheatsheet-lite.pdf</a>
+<br><a class="internal-link" data-href="Sass(SCSS) and Compass Cheat Sheet.pdf" href="1a-evaluacion\7-cheatsheets\sass(scss)-and-compass-cheat-sheet.pdf" target="_self" rel="noopener nofollow">Sass(SCSS) and Compass Cheat Sheet.pdf</a>
+
+
+<br><a class="internal-link" data-href="./1- Diseño Responsivo.md" href="2a-evaluacion\1-diseño-responsivo.html" target="_self" rel="noopener nofollow">Diseño Responsivo</a>
+<br><a class="internal-link" data-href="./2- Animaciones.md" href="2a-evaluacion\2-animaciones.html" target="_self" rel="noopener nofollow">Animaciones</a>
+]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Sat, 08 Feb 2025 18:09:07 GMT</pubDate></item></channel></rss>
